@@ -1,0 +1,17 @@
+{
+  "name": "korean-topik-server",
+  "version": "1.0.0",
+  "description": "핑크 한국어 — TOPIK 4급 学习网站后端(账号+进度+遗忘曲线复习)",
+  "type": "commonjs",
+  "main": "server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --no-warnings server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
