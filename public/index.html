@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한국어 ♡ TOPIK 4급 · Y2K</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --mint:#8fe3cb;--mint-soft:#c7f3e7;--mint-bg:#bdeedf;--mint-d:#3fc9a3;
+    --pink:#ff5fa2;--pink-d:#ff2e86;--lilac:#c9a7ff;--butter:#ffe680;
+    --ink:#3a2b52;--muted:#8579a0;--surface:#fff;--line:#ecdcf0;
+    --ok:#3fc9a3;--shadow:rgba(120,60,140,.16);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Quicksand','Noto Sans KR',sans-serif;color:var(--ink);min-height:100vh;
+    background-color:var(--mint-bg);
+    background-image:radial-gradient(circle,rgba(255,255,255,.75) 7px,transparent 8px);
+    background-size:44px 44px}
+  .ko{font-family:'Noto Sans KR';font-weight:700}
+
+  /* leopard accent (animal print) */
+  .leopard{
+    background-color:#f0b94e;
+    background-image:
+      radial-gradient(circle at 14px 16px,#4a2c0f 5px,transparent 6px),
+      radial-gradient(circle at 14px 16px,transparent 7px,#4a2c0f 8px,transparent 11px),
+      radial-gradient(circle at 48px 44px,#4a2c0f 4px,transparent 5px),
+      radial-gradient(circle at 48px 44px,transparent 6px,#4a2c0f 7px,transparent 10px),
+      radial-gradient(circle at 72px 14px,#7a5320 3px,transparent 4px),
+      radial-gradient(circle at 30px 54px,#7a5320 3px,transparent 4px);
+    background-size:80px 70px}
+  .leostrip{height:16px;border-radius:20px;margin:8px auto 0;max-width:280px;box-shadow:0 3px 0 rgba(120,60,140,.15)}
+
+  header{text-align:center;padding:22px 18px 4px}
+  h1{font-family:'Baloo 2';font-weight:800;font-size:clamp(28px,6.5vw,46px);line-height:1;
+    background:linear-gradient(95deg,#ff2e86,#c9a7ff 45%,#3fc9a3);-webkit-background-clip:text;background-clip:text;color:transparent;
+    -webkit-text-stroke:1.5px #fff;filter:drop-shadow(0 3px 4px var(--shadow))}
+  .tagline{font-family:'Baloo 2';font-size:14px;color:var(--pink-d);margin-top:4px;font-weight:600}
+  .countdown{display:inline-block;font-family:'Baloo 2';font-weight:700;font-size:14px;color:#fff;
+    background:var(--pink);padding:4px 16px;border-radius:30px;margin-top:8px;box-shadow:0 3px 0 var(--pink-d)}
+
+  .navwrap{position:sticky;top:0;z-index:20;background:rgba(189,238,223,.9);backdrop-filter:blur(8px)}
+  nav{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding:10px;max-width:940px;margin:0 auto}
+  .tab{font-family:'Baloo 2';font-size:14px;font-weight:600;cursor:pointer;padding:8px 14px;border-radius:30px;
+    color:var(--pink-d);background:#fff;border:2px solid #fff;transition:.18s;box-shadow:0 3px 0 rgba(120,60,140,.12)}
+  .tab:hover{transform:translateY(-2px)}
+  .tab.active{background:var(--pink);color:#fff;box-shadow:0 3px 0 var(--pink-d)}
+
+  main{max-width:940px;margin:0 auto;padding:16px 16px 80px}
+  .panel{display:none;animation:fade .35s ease}.panel.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  .card{background:var(--surface);border-radius:22px;padding:22px;margin-bottom:14px;
+    box-shadow:0 8px 0 rgba(120,60,140,.08),0 12px 26px var(--shadow);border:3px solid #fff}
+  h2{font-family:'Baloo 2';font-size:21px;color:var(--ink);margin-bottom:4px;display:flex;align-items:center;gap:8px}
+  h3{font-family:'Baloo 2';color:var(--pink-d);font-size:17px;margin:14px 0 6px}
+  p,li{line-height:1.6;font-size:14.5px}
+  .muted{color:var(--muted);font-size:13.5px}
+
+  .btn{font-family:'Baloo 2';font-weight:700;cursor:pointer;border:none;border-radius:16px;padding:11px 20px;font-size:15px;color:#fff;
+    background:linear-gradient(180deg,#ff7ab4,#ff2e86);box-shadow:0 4px 0 var(--pink-d);transition:.12s;margin:5px 4px 0}
+  .btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--pink-d)}
+  .btn.mint{background:linear-gradient(180deg,#a6ecd8,#3fc9a3);box-shadow:0 4px 0 #2aa987;color:#0d5a45}
+  .btn.lilac{background:linear-gradient(180deg,#dcc6ff,#b88cff);box-shadow:0 4px 0 #9a6fe0}
+  .btn.ghost{background:#fff;color:var(--pink-d);border:2px solid var(--pink);box-shadow:0 4px 0 #ffc4dd}
+  .btn.big{font-size:17px;padding:14px 26px;width:100%;max-width:420px}
+  .speak{background:none;border:none;cursor:pointer;font-size:22px;transition:.15s;line-height:1}
+  .speak:hover{transform:scale(1.25) rotate(-8deg)}
+
+  /* TODAY */
+  .hero{background:linear-gradient(135deg,#a6ecd8,#ff9ec9);border:3px solid #fff;text-align:center;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.5) 5px,transparent 6px);background-size:34px 34px;opacity:.5;pointer-events:none}
+  .hero h2{justify-content:center;font-size:25px;color:#fff;text-shadow:0 2px 3px rgba(120,60,140,.3);position:relative}
+  .hero .muted{color:#fff;opacity:.95;position:relative}
+  .hero .btn.big{background:#fff;color:var(--pink-d);box-shadow:0 4px 0 #ffc4dd;margin-top:10px;position:relative}
+  .progwrap{max-width:520px;margin:14px auto 0;position:relative}
+  .progtxt{text-align:center;font-family:'Baloo 2';font-weight:700;color:#fff;margin-bottom:6px;font-size:14px}
+  .barbg{background:rgba(255,255,255,.45);height:14px;border-radius:20px;overflow:hidden}
+  .barfill{height:100%;background:linear-gradient(90deg,#ff2e86,#c9a7ff);width:0;transition:.5s;border-radius:20px}
+
+  .mission{display:flex;align-items:center;gap:13px;background:#fff;border-radius:18px;padding:13px 15px;margin:9px 0;border:2px solid var(--mint-soft);transition:.18s}
+  .mission.done{background:var(--mint-soft);border-color:var(--mint-d)}
+  .check{flex:none;width:34px;height:34px;border-radius:50%;border:3px solid var(--mint);background:#fff;cursor:pointer;font-size:18px;display:grid;place-items:center;color:transparent;transition:.2s}
+  .mission.done .check{background:var(--mint-d);border-color:var(--mint-d);color:#fff}
+  .mtxt{flex:1;min-width:0}.mtxt .mt{font-family:'Baloo 2';font-weight:700;font-size:16px}
+  .mission.done .mt{text-decoration:line-through;color:var(--muted)}
+  .mtxt .ms{font-size:12.5px;color:var(--muted)}
+  .mgo .btn{margin:0;padding:8px 13px;font-size:13px}
+
+  .dailymini{text-align:center}.demoji{font-size:54px;line-height:1}
+  .bigko{font-family:'Noto Sans KR';font-weight:900;color:var(--ink);line-height:1.1}
+  .rom{font-family:'Baloo 2';font-size:16px;color:var(--pink-d);margin:2px 0}
+  .cn{font-size:19px;font-weight:700}
+
+  /* flashcard */
+  .deckpick{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+  .deckpick .tab{font-size:13px;padding:7px 12px}
+  .deckpick .tab.t4{color:#b8860b;border-color:#ffe680}
+  .deckpick .tab.t4.active{background:var(--butter);color:#7a5320;box-shadow:0 3px 0 #e0c34a}
+  .flash{perspective:1200px;margin:8px auto;max-width:380px}
+  .flashinner{position:relative;width:100%;min-height:300px;transition:transform .5s;transform-style:preserve-3d;cursor:pointer}
+  .flash.flipped .flashinner{transform:rotateY(180deg)}
+  .face{position:absolute;inset:0;backface-visibility:hidden;border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;box-shadow:0 10px 24px var(--shadow)}
+  .front{background:radial-gradient(circle at 50% -10%,#fff7fb,#fff 60%);border:3px solid var(--mint)}
+  .cattag{font-family:'Baloo 2';font-weight:700;font-size:12px;color:#fff;background:var(--lilac);padding:3px 13px;border-radius:20px;margin-bottom:12px;box-shadow:0 2px 0 #9a6fe0}
+  .front .imgbox{width:142px;height:142px;border-radius:24px;display:grid;place-items:center;font-size:78px;margin-bottom:14px;background:var(--mint-soft);background-size:cover;background-position:center;overflow:hidden;border:4px solid #fff;box-shadow:0 7px 18px var(--shadow)}
+  .front .bigko{font-size:clamp(30px,8vw,46px)}
+  .back{background:linear-gradient(160deg,#ff7ab4,#ff2e86);color:#fff;transform:rotateY(180deg);border:3px solid #fff}
+  .back .cn{color:#fff;font-size:30px}.back .rom{color:#ffe3f0}.back .demoji{margin-bottom:8px}
+  .tapme{margin-top:10px;font-size:12.5px;color:var(--muted)}
+  .progress{text-align:center;font-family:'Baloo 2';font-weight:600;color:var(--muted);margin:8px 0 4px;font-size:13.5px}
+
+  .qopt{display:block;width:100%;text-align:left;background:#fff;border:2px solid var(--mint-soft);border-radius:14px;padding:12px 15px;margin:7px 0;font-size:15px;cursor:pointer;font-weight:700;color:var(--ink);transition:.15s}
+  .qopt:hover{border-color:var(--pink);background:#fff5fa}
+  .qopt.right{background:#dcfaf0;border-color:var(--mint-d);color:#0d7a5c}
+  .qopt.wrong{background:#ffe3ee;border-color:var(--pink);color:var(--pink-d)}
+  .qhead{font-family:'Baloo 2';font-weight:600;color:var(--muted);margin-bottom:4px;font-size:13.5px}
+  .qimg{width:126px;height:126px;border-radius:20px;margin:4px auto 8px;display:grid;place-items:center;font-size:66px;background:var(--mint-soft);background-size:cover;background-position:center;overflow:hidden;border:4px solid #fff;box-shadow:0 6px 16px var(--shadow)}
+  .scorebox{text-align:center;font-family:'Baloo 2';font-weight:700;font-size:19px;color:var(--pink-d);background:var(--mint-soft);border-radius:16px;padding:16px;margin-top:10px}
+  .tq{margin-bottom:16px;padding-bottom:12px;border-bottom:2px dotted var(--mint)}
+  .tq .qn{font-family:'Baloo 2';font-weight:700;color:var(--ink);font-size:16px;margin-bottom:6px}
+  .reading{background:var(--mint-soft);border-radius:12px;padding:13px;margin-bottom:9px;font-size:15px}
+  .hint{font-size:13px;color:var(--muted);background:var(--mint-soft);border-radius:12px;padding:9px 13px;margin-top:8px}
+
+  /* K-pop */
+  .grouptag{display:inline-block;font-family:'Baloo 2';font-weight:700;font-size:13px;color:#fff;border-radius:12px;padding:4px 13px}
+  .nj{background:#3fc9a3}.enh{background:#7b8cff}.aes{background:#c9a7ff}
+  .fandom{font-size:12px;color:var(--muted);font-weight:600;margin-left:6px}
+  .videobox{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;border:3px solid var(--mint);margin:8px 0}
+  .videobox iframe{width:100%;height:100%;border:0;display:block}
+  .vtip{font-size:13px;color:var(--muted);margin-top:2px}.vtip a{color:var(--pink-d);font-weight:600}
+
+  .carousel{width:100%;aspect-ratio:16/8;border-radius:18px;background:var(--mint-soft);background-size:cover;background-position:center;
+    display:flex;align-items:flex-end;justify-content:center;position:relative;overflow:hidden;border:3px solid var(--mint);margin-bottom:12px}
+  .carousel .cph{color:var(--muted);font-size:13.5px;font-weight:600;align-self:center;padding:14px;text-align:center}
+  .carousel .ccap{background:rgba(255,46,134,.85);color:#fff;font-size:18px;padding:5px 16px;border-radius:14px 14px 0 0;font-weight:700}
+
+  .biasgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin-top:10px}
+  .bias{text-align:center}
+  .biasimg{display:block;width:100%;aspect-ratio:1;border-radius:16px;background:var(--mint-soft);border:3px dashed var(--mint);cursor:pointer;background-size:cover;background-position:center;position:relative;overflow:hidden;transition:.18s}
+  .biasimg:hover{border-color:var(--pink)}.biasimg.filled{border-style:solid;border-color:var(--pink)}
+  .biasimg .ph{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:13px;font-weight:700;padding:8px;text-align:center}
+  .biasimg.filled .ph{display:none}
+  .biasname{margin-top:6px;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:5px}
+  .biasname .ko{color:var(--pink-d)}.biasname .en{color:var(--muted);font-size:12px}
+
+  .sent{display:flex;align-items:center;gap:12px;background:var(--mint-bg);border-radius:14px;padding:12px 14px;margin:8px 0;border:2px solid #fff}
+  .sent .txt{flex:1}.sent .txt .ko{font-size:17px}.sent .txt .t{font-size:13px;color:var(--muted);margin-top:2px}
+  .lvltag{font-family:'Baloo 2';font-weight:700;font-size:11px;background:var(--lilac);color:#fff;border-radius:10px;padding:2px 8px;margin-left:6px}
+
+  .vocabgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:8px}
+  .vchip{background:var(--mint-bg);border:2px solid #fff;border-radius:12px;padding:9px 11px;display:flex;align-items:center;gap:8px}
+  .vchip .em{font-size:22px}.vchip .l{flex:1}.vchip .l .ko{font-size:15px;color:var(--ink)}.vchip .l .c{font-size:12px;color:var(--muted)}
+
+  /* listening */
+  .lisn{background:var(--mint-bg);border-radius:16px;padding:14px;margin:10px 0;border:2px solid #fff}
+  .lisn .lhd{font-family:'Baloo 2';font-weight:700;color:var(--pink-d);font-size:14px;margin-bottom:6px}
+  .transcript{background:#fff;border-radius:12px;padding:11px 13px;margin-top:8px;font-size:14px;display:none;border:2px dashed var(--mint)}
+  .transcript.show{display:block}
+  .gram{background:var(--mint-bg);border:2px solid #fff;border-radius:16px;padding:13px 15px;margin:9px 0}
+  .gram .gp{font-family:'Baloo 2';font-weight:700;font-size:19px;color:var(--pink-d)}
+  .gram .gm{font-size:13.5px;color:var(--ink);margin:2px 0 7px}
+  .gram .ge{font-size:16px}.gram .gt{font-size:13px;color:var(--muted)}
+  .gram .glv{font-family:'Baloo 2';font-size:11px;background:var(--lilac);color:#fff;border-radius:10px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+
+  /* roadmap */
+  .month{display:flex;gap:12px;margin:11px 0;align-items:flex-start}
+  .dot2{flex:none;width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-family:'Baloo 2';font-weight:700;color:#fff;font-size:11px;text-align:center}
+  .m6{background:#a6ecd8}.m8{background:#3fc9a3}.m9{background:#ff7ab4}.m10{background:#c9a7ff}
+  .mbody{background:var(--mint-bg);border-radius:12px;padding:11px 14px;flex:1;border:2px solid #fff}
+  .pill{display:inline-block;background:#fff;color:var(--pink-d);border-radius:20px;padding:3px 10px;font-size:12px;margin:3px 4px 0 0;font-weight:700;border:1.5px solid var(--mint)}
+
+  footer{text-align:center;padding:18px;color:var(--pink-d);font-family:'Baloo 2';font-weight:600;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>한국어 ♡</h1>
+  <div class="tagline">薄荷 · 波点 · 豹纹 · 冲刺 TOPIK 4급</div>
+  <div class="leostrip leopard"></div>
+  <div><span class="countdown" id="cd">D-???</span></div>
+</header>
+
+<div class="navwrap">
+<nav>
+  <button class="tab active" data-p="today">🔥 今日</button>
+  <button class="tab" data-p="memo">📚 背单词</button>
+  <button class="tab" data-p="kpop">🎤 K-pop</button>
+  <button class="tab" data-p="listen">🎧 听力</button>
+  <button class="tab" data-p="grammar">📖 语法</button>
+  <button class="tab" data-p="read">🔊 带读</button>
+  <button class="tab" data-p="test">📝 试卷</button>
+  <button class="tab" data-p="plan">🗺️ 路线</button>
+</nav>
+</div>
+
+<main>
+<!-- TODAY -->
+<section class="panel active" id="today">
+  <div class="card hero">
+    <h2>오늘의 학습 ✨</h2>
+    <div class="muted">不用想,照着做。全部约 45 分钟。</div>
+    <button class="btn big" onclick="goTab('memo')">▶ 现在就开始背单词</button>
+    <div class="progwrap">
+      <div class="progtxt" id="mProg">今天完成 0 / 6</div>
+      <div class="barbg"><div class="barfill" id="mBar"></div></div>
+    </div>
+  </div>
+  <div class="card"><div id="missionList"></div>
+    <p class="hint">左边圆圈点一下 = 完成;点「开始 →」直接进入。明天刷新重新开始。</p></div>
+  <div class="card dailymini">
+    <h2 style="justify-content:center">🌸 今日单词</h2>
+    <div class="demoji" id="dEmoji">📌</div>
+    <div class="bigko ko" id="dWord" style="font-size:clamp(30px,8vw,48px)">단어</div>
+    <div class="rom" id="dRom"></div><div class="cn" id="dCn"></div>
+    <button class="speak" onclick="speak(daily.kr)">🔊</button>
+    <div style="margin-top:8px"><button class="btn ghost" onclick="newDaily()">换一个</button></div>
+  </div>
+</section>
+
+<!-- MEMORIZE -->
+<section class="panel" id="memo">
+  <div class="card">
+    <h2>📚 看图记词</h2>
+    <p class="muted">选主题 → 看图猜词 → 翻面对答案 → 小测验。<b style="color:#b8860b">🐆 黄=TOPIK4级</b>,绿=基础。背完一组会<b>自动进入下一组</b>不会停;想一直背选「🔄全部连续背」。</p>
+    <div class="deckpick" id="deckPick"></div>
+    <div class="progress" id="memoProg">第 1 / 10</div>
+    <div class="barbg" style="max-width:380px;margin:0 auto 10px"><div class="barfill" id="memoBar"></div></div>
+    <div class="flash" id="flash" onclick="flipCard()">
+      <div class="flashinner">
+        <div class="face front"><div class="cattag" id="fCat">主题</div><div class="imgbox" id="fImg">📌</div><div class="bigko ko" id="fKo">단어</div><div class="rom" id="fRom"></div><div class="tapme">点卡片看意思 ↺</div></div>
+        <div class="face back"><div class="demoji" id="fImg2">📌</div><div class="cn" id="fCn">中文</div><div class="rom" id="fRom2"></div></div>
+      </div>
+    </div>
+    <div style="text-align:center">
+      <button class="btn ghost" onclick="event.stopPropagation();prevCard()">⬅ 上一个</button>
+      <button class="btn mint" onclick="event.stopPropagation();speak(curDeck[mi].kr)">🔊 发音</button>
+      <button class="btn ghost" onclick="event.stopPropagation();nextCard()">下一个 ➡</button>
+    </div>
+    <div style="text-align:center;margin-top:6px"><button class="btn" onclick="startQuiz()">开始小测验 💯</button></div>
+  </div>
+  <div class="card" id="quizCard" style="display:none">
+    <h2>💯 小测验</h2><div class="qhead" id="quizCount"></div>
+    <div class="qimg" id="quizImg"></div>
+    <div class="ko" id="quizWord" style="font-size:30px;color:var(--pink-d);text-align:center;margin:6px 0"></div>
+    <div id="quizOpts"></div><div class="scorebox" id="quizResult" style="display:none"></div>
+  </div>
+</section>
+
+<!-- K-POP -->
+<section class="panel" id="kpop">
+  <div class="card"><h2>🎤 用 K-pop 学韩语</h2>
+    <p class="muted">看 MV → 学情景句 → 背追星词。歌词有版权我没放,下面是为你写的实用「追星情景句」💕</p></div>
+
+  <div class="card">
+    <h2>📸 我的爱豆相册</h2>
+    <p class="muted">真人明星照片有版权,我不能从网上抓给你;但你可以<b>一键多选导入</b>自己存的照片,会自动铺到相册、轮播和 K-pop 单词卡上(前4张分给四位成员)。仅本次有效。</p>
+    <div style="text-align:center;margin:4px 0 12px">
+      <label class="btn lilac" style="cursor:pointer;display:inline-block">📂 一键导入照片(可多选)<input type="file" accept="image/*" multiple onchange="importPhotos(this)" hidden></label>
+    </div>
+    <div class="carousel" id="idolCarousel"><div class="cph">导入照片后,这里会自动轮播你的爱豆 ✨</div></div>
+    <div class="biasgrid">
+      <div class="bias" data-name="하니"><label class="biasimg"><input type="file" accept="image/*" onchange="loadBias(this)" hidden><div class="ph">＋ 添加照片</div></label><div class="biasname"><span class="ko">하니</span><span class="en">Hanni</span><button class="speak" style="font-size:18px" onclick="speak('하니')">🔊</button></div></div>
+      <div class="bias" data-name="민지"><label class="biasimg"><input type="file" accept="image/*" onchange="loadBias(this)" hidden><div class="ph">＋ 添加照片</div></label><div class="biasname"><span class="ko">민지</span><span class="en">Minji</span><button class="speak" style="font-size:18px" onclick="speak('민지')">🔊</button></div></div>
+      <div class="bias" data-name="박성훈"><label class="biasimg"><input type="file" accept="image/*" onchange="loadBias(this)" hidden><div class="ph">＋ 添加照片</div></label><div class="biasname"><span class="ko">박성훈</span><span class="en">Sunghoon</span><button class="speak" style="font-size:18px" onclick="speak('박성훈')">🔊</button></div></div>
+      <div class="bias" data-name="김선우"><label class="biasimg"><input type="file" accept="image/*" onchange="loadBias(this)" hidden><div class="ph">＋ 添加照片</div></label><div class="biasname"><span class="ko">김선우</span><span class="en">Sunoo</span><button class="speak" style="font-size:18px" onclick="speak('김선우')">🔊</button></div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="grouptag nj">NewJeans 뉴진스</span><span class="fandom">팬덤: Bunnies</span></h2>
+    <div class="videobox"><iframe src="https://www.youtube.com/embed/pSUydWEqKwE" title="NewJeans Ditto" allowfullscreen></iframe></div>
+    <div class="vtip">🎬 <b>Ditto</b> · 旋律慢好跟读 <a href="https://www.youtube.com/watch?v=pSUydWEqKwE" target="_blank">▶ YouTube</a></div>
+    <div class="videobox"><iframe src="https://www.youtube.com/embed/11cta61wi0g" title="NewJeans Hype Boy" allowfullscreen></iframe></div>
+    <div class="vtip">🎬 <b>Hype Boy</b> <a href="https://www.youtube.com/watch?v=11cta61wi0g" target="_blank">▶ YouTube</a></div>
+    <h3>💬 情景句</h3><div id="njSents"></div>
+  </div>
+
+  <div class="card">
+    <h2><span class="grouptag enh">ENHYPEN 엔하이픈</span><span class="fandom">팬덤: ENGENE 엔진</span></h2>
+    <div class="videobox"><iframe src="https://www.youtube.com/embed/wXFLzODIdUI" title="ENHYPEN Bite Me" allowfullscreen></iframe></div>
+    <div class="vtip">🎬 <b>Bite Me</b> <a href="https://www.youtube.com/watch?v=wXFLzODIdUI" target="_blank">▶ YouTube</a></div>
+    <div class="videobox"><iframe src="https://www.youtube.com/embed/QMlNLo74mOw" title="ENHYPEN Future Perfect" allowfullscreen></iframe></div>
+    <div class="vtip">🎬 <b>Future Perfect</b> <a href="https://www.youtube.com/watch?v=QMlNLo74mOw" target="_blank">▶ YouTube</a></div>
+    <h3>💬 情景句</h3><div id="enhSents"></div>
+  </div>
+
+  <div class="card">
+    <h2><span class="grouptag aes">aespa 에스파</span><span class="fandom">팬덤: MY 마이</span></h2>
+    <div class="videobox"><iframe src="https://www.youtube.com/embed/phuiiNCxRMg" title="aespa Supernova" allowfullscreen></iframe></div>
+    <div class="vtip">🎬 <b>Supernova</b> <a href="https://www.youtube.com/watch?v=phuiiNCxRMg" target="_blank">▶ YouTube</a></div>
+    <h3>💬 情景句</h3><div id="aesSents"></div>
+  </div>
+
+  <div class="card"><h2>⭐ 追星必备词</h2><div class="vocabgrid" id="kpopVocab"></div></div>
+</section>
+
+<!-- LISTEN -->
+<section class="panel" id="listen">
+  <div class="card">
+    <h2>🎧 听力练习</h2>
+    <p class="muted">仿 TOPIK 听力题型。点 🔊 听(可调慢),先别看原文,选答案后再点「看原文」核对。</p>
+    <div style="text-align:center;margin:6px 0">
+      <select class="voicesel" onchange="setVoice(this.value)" style="padding:7px 9px;border-radius:12px;border:2px solid var(--mint);font-weight:600;max-width:170px"></select>
+      <button class="btn ghost" id="lspdSlow" onclick="setSpeed(.75)">🐢 慢</button>
+      <button class="btn mint" id="lspdNorm" onclick="setSpeed(1)">😊 正常</button>
+    </div>
+    <div id="listenList"></div>
+  </div>
+</section>
+
+<!-- GRAMMAR -->
+<section class="panel" id="grammar">
+  <div class="card">
+    <h2>📖 核心语法(TOPIK 3–4)</h2>
+    <p class="muted">背单词之外,<b>语法才是过 4级的关键</b>。每条:句型 → 含义 → 例句(点🔊跟读)。建议每天吃透 2–3 条,并自己造句。</p>
+    <div id="gramList"></div>
+  </div>
+</section>
+
+<!-- READ -->
+<section class="panel" id="read">
+  <div class="card">
+    <h2>🔊 带读句子</h2>
+    <p class="muted">点🔊听标准发音并跟读。先听,再自己读,再看翻译。</p>
+    <div style="text-align:center;margin-bottom:6px">
+      <span style="font-weight:700;color:var(--pink-d);font-size:13px">嗓音 </span>
+      <select class="voicesel" onchange="setVoice(this.value)" style="padding:8px 10px;border-radius:12px;border:2px solid var(--mint);font-family:inherit;font-weight:600;color:var(--ink);max-width:180px"></select>
+      <button class="btn ghost" id="pNorm" onclick="setPitch(1.02)">正常音</button>
+      <button class="btn ghost" id="pLow" onclick="setPitch(0.7)">🎚️ 低沉(男声感)</button>
+    </div>
+    <div style="text-align:center;margin-bottom:8px">
+      <button class="btn ghost" id="spdSlow" onclick="setSpeed(.7)">🐢 慢</button>
+      <button class="btn mint" id="spdNorm" onclick="setSpeed(1)">😊 正常</button>
+      <button class="btn" onclick="readAll()">▶️ 全部连读</button>
+    </div>
+    <div id="sentList"></div>
+    <p class="hint">🔈 发音用「设备自带」的朗读引擎,音质取决于设备。想要更自然的声音:用电脑版 <b>Chrome</b> 打开,在上面「嗓音」里选 <b>Google 한국의</b>(自然很多);iPhone 选 <b>Yuna</b>。手机若没韩语音色,去系统「语言/朗读」加一个韩语 TTS。</p>
+  </div>
+</section>
+
+<!-- TEST -->
+<section class="panel" id="test">
+  <div class="card">
+    <h2>📝 TOPIK 模拟小卷</h2>
+    <p class="muted">10题(含4级词汇·语法·阅读)。选完点交卷看分数 + 解析。</p>
+    <div id="testList"></div>
+    <div style="text-align:center"><button class="btn" onclick="submitTest()">交卷</button><button class="btn ghost" onclick="resetTest()">重做</button></div>
+    <div class="scorebox" id="testScore" style="display:none"></div>
+  </div>
+
+  <div class="card">
+    <h2>✍️ 写作练习(쓰기 51–54)</h2>
+    <p class="muted">TOPIK II 写作 4 题(共 100 分):</p>
+    <ul style="font-size:13.5px;color:var(--ink);margin:4px 0 8px;padding-left:20px">
+      <li><b>51 短文填空</b>(通知/邮件):看上下文,礼貌体 -습니다/-아요,填得自然。</li>
+      <li><b>52 说明文填空</b>:重逻辑衔接,常用 -기 때문이다 / -는 것이다。</li>
+      <li><b>53 图表说明</b>(200–300字):描述数据(증가하다/감소하다/차지하다),书面体 -(ㄴ/는)다。</li>
+      <li><b>54 议论文</b>(600–700字,占 50 分):서론-본론-결론 三段,见下方框架。</li>
+    </ul>
+    <p class="muted">下面练 54,写完点「看范文框架」对照。</p>
+    <p class="ko" style="background:var(--mint-bg);padding:12px;border-radius:12px;margin:6px 0">다음을 주제로 글을 쓰십시오.<br><b>"외국어 공부가 왜 중요한가?"</b><br>자신의 생각을 600~700자로 쓰세요.</p>
+    <textarea id="writeBox" placeholder="여기에 한국어로 써 보세요..." style="width:100%;min-height:150px;border:2px solid var(--mint);border-radius:14px;padding:12px;font-family:inherit;font-size:15px;box-sizing:border-box"></textarea>
+    <div id="wcount" class="muted" style="text-align:right">0 자</div>
+    <button class="btn ghost" onclick="document.getElementById('wframe').classList.toggle('show')">看范文框架</button>
+    <div class="transcript" id="wframe">
+      <b>서론(开头):</b> 提出主题 + 表明自己的立场。<br>
+      <b>본론(正文):</b> 理由1 + 例子;理由2 + 例子(连接词:첫째 / 둘째 / 왜냐하면 / 예를 들어)。<br>
+      <b>결론(结尾):</b> 总结 + 重申观点(따라서 / 결론적으로)。<br>
+      <span class="muted">提示:用书面体 -(ㄴ/는)다,别用 -아요/어요。</span>
+    </div>
+    <p class="hint">⚠️ 写作没法自动批改。范文框架帮你搭结构;想要真实批改,把你写的贴到对话里我帮你改。</p>
+  </div>
+
+  <div class="card">
+    <h2>📥 官方真题(下载 / 在线做,含听力)</h2>
+    <p class="muted">完整历年真题(听力 MP3 + 答案 + 2025 年最新场次)是 NIIED 官方版权材料,我不能直接搬进网站,但下面是合法免费的来源:</p>
+    <ul>
+      <li><b>TOPIK 官方</b>(国立国际教育院):<a href="https://www.topik.go.kr" target="_blank">topik.go.kr</a> → 자료실 → 기출문제</li>
+      <li><b>在线做整卷</b>(含听力·自动评分·英文解析·可调语速 0.5–2×):<a href="https://www.learning-korean.com/topik/" target="_blank">learning-korean.com/topik</a></li>
+      <li><b>历年真题 PDF+听力+答案</b>(含 2025 年第 96/102 回):<a href="https://www.topikguide.com/previous-papers/" target="_blank">topikguide.com/previous-papers</a></li>
+      <li><b>免费真题合集</b>:<a href="https://jaem.io/free-topik-mock-tests/" target="_blank">JAEM Korean</a></li>
+    </ul>
+    <p class="hint">想做「2025 TOPIK II 中高级」整套含听力,用第 2 个链接在线做最方便。</p>
+  </div>
+</section>
+
+<!-- PLAN -->
+<section class="panel" id="plan">
+  <div class="card">
+    <h2>🗺️ 4个月路线</h2>
+    <div class="month"><div class="dot2 m6">6–7月</div><div class="mbody"><b>打地基(1–2级)</b><br><span class="pill">1500基础词</span><span class="pill">은/는·이/가·을/를</span><span class="pill">时态</span><span class="pill">-아요/어요</span></div></div>
+    <div class="month"><div class="dot2 m8">8月</div><div class="mbody"><b>进阶(3级)</b><br><span class="pill">+1000中级词</span><span class="pill">-(으)니까·-는데·-(으)면</span><span class="pill">短文精读</span></div></div>
+    <div class="month"><div class="dot2 m9">9月</div><div class="mbody"><b>冲4级</b><br><span class="pill">4级高级词</span><span class="pill">写作模板</span><span class="pill">每周2套真题</span><span class="pill">听力刷题</span></div></div>
+    <div class="month"><div class="dot2 m10">10月</div><div class="mbody"><b>考前模考</b><br><span class="pill">限时整卷</span><span class="pill">错题复盘</span><span class="pill">考试技巧</span></div></div>
+    <p class="hint">💡 4级阅读约需2500–3000词,词汇是分水岭。每天照「今日」走就不会乱。</p>
+  </div>
+
+  <div class="card">
+    <h2>📌 实话:光靠这个网站够吗?</h2>
+    <p class="muted">不够 100% 过 4级,但它能解决其中几块 👇</p>
+    <p>✅ <b>它能帮你</b>:认词(看图+发音)、靠 K-pop 维持每天学的动力、熟悉题型、学语法和写作结构。</p>
+    <p>⚠️ <b>还得靠外部补</b>:① <b>真实听力</b>(用官方真题 MP3,见试卷页链接,机器音不够拟真);② <b>词汇量</b>(4级要 3000+,这里 ~270,需长期累积);③ <b>写作批改</b>(贴给我或找老师);④ <b>整套限时真卷</b>(在线做,见链接)。</p>
+    <p class="hint">把这个网站当「每天练词+语法+动力」,把官方真题/真听力当「实战」,两者一起用,4级很有戏。</p>
+  </div>
+</section>
+</main>
+<footer>♡ 가능해요! 你一定可以 ♡</footer>
+
+<script>
+(function(){const d=Math.ceil((new Date('2026-10-18')-new Date())/864e5);
+  document.getElementById('cd').textContent=d>0?'距10月TOPIK约 D-'+d:'D-day!';})();
+
+function goTab(p){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.p===p));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+  document.getElementById(p).classList.add('active');window.scrollTo({top:0,behavior:'smooth'});}
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>goTab(t.dataset.p));
+
+let speed=1,pitch=1,chosenVoice=null;
+function setSpeed(s){speed=s;
+  ['spdNorm','lspdNorm'].forEach(id=>{const e=document.getElementById(id);if(e)e.className=s===1?'btn mint':'btn ghost';});
+  ['spdSlow','lspdSlow'].forEach(id=>{const e=document.getElementById(id);if(e)e.className=(s<1)?'btn mint':'btn ghost';});}
+function setPitch(p){pitch=p;
+  const n=document.getElementById('pNorm'),l=document.getElementById('pLow');
+  if(n)n.className=p>=1?'btn mint':'btn ghost';if(l)l.className=p<1?'btn mint':'btn ghost';}
+function koVoices(){return speechSynthesis.getVoices().filter(v=>v.lang&&v.lang.toLowerCase().startsWith('ko'));}
+function bestVoice(){const vs=koVoices();return vs.find(v=>/google/i.test(v.name))||vs.find(v=>/yuna|natural|premium|enhanced|neural/i.test(v.name))||vs[0]||null;}
+function populateVoices(){const vs=koVoices();if(!chosenVoice&&vs.length)chosenVoice=bestVoice();
+  document.querySelectorAll('.voicesel').forEach(sel=>{const cur=sel.value;sel.innerHTML='';
+  if(!vs.length){sel.innerHTML='<option>(设备暂无韩语嗓音)</option>';return;}
+  vs.forEach(v=>{const o=document.createElement('option');o.value=v.name;o.textContent=v.name+(/male|man|남/i.test(v.name)?' ♂':/female|woman|여/i.test(v.name)?' ♀':'');sel.appendChild(o);});
+  sel.value=cur||(chosenVoice?chosenVoice.name:vs[0].name);});}
+function setVoice(name){chosenVoice=koVoices().find(v=>v.name===name)||null;document.querySelectorAll('.voicesel').forEach(s=>{s.value=name;});}
+function speak(t){if(!('speechSynthesis'in window)){alert('브라우저가 음성을 지원하지 않아요');return;}
+  speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';u.rate=speed;u.pitch=pitch;
+  const v=chosenVoice||koVoices()[0];if(v)u.voice=v;speechSynthesis.speak(u);}
+if('speechSynthesis'in window){speechSynthesis.onvoiceschanged=populateVoices;}
+setTimeout(populateVoices,300);
+
+/* bias photos */
+let idolPhotos=[],cIdx=0;
+function loadBias(input){const f=input.files[0];if(!f)return;
+  const slot=input.closest('.bias'),name=slot.dataset.name;const r=new FileReader();
+  r.onload=e=>{const box=input.closest('.biasimg');box.style.backgroundImage='url('+e.target.result+')';box.classList.add('filled');
+    idolPhotos.push({src:e.target.result,name:name});updateCarousel();if(deckType[curDeckName]==='kpop')showCard();};
+  r.readAsDataURL(f);}
+const memberNames=['하니','민지','박성훈','김선우'];
+function importPhotos(input){const files=[...input.files];const slots=document.querySelectorAll('.biasimg');
+  files.forEach(f=>{const r=new FileReader();r.onload=e=>{
+    const idx=idolPhotos.length;idolPhotos.push({src:e.target.result,name:memberNames[idx]||'아이돌'});
+    if(idx<slots.length){slots[idx].style.backgroundImage='url('+e.target.result+')';slots[idx].classList.add('filled');}
+    updateCarousel();if(deckType[curDeckName]==='kpop')showCard();};
+    r.readAsDataURL(f);});
+  input.value='';}
+function updateCarousel(){const el=document.getElementById('idolCarousel');
+  if(!idolPhotos.length){el.style.backgroundImage='';el.innerHTML='<div class="cph">上传照片后,这里会自动轮播你的爱豆 ✨</div>';return;}
+  cIdx=cIdx%idolPhotos.length;const p=idolPhotos[cIdx];
+  el.style.backgroundImage='url('+p.src+')';el.innerHTML='<div class="ccap ko">'+p.name+'</div>';}
+setInterval(()=>{if(idolPhotos.length){cIdx=(cIdx+1)%idolPhotos.length;updateCarousel();}},3000);
+
+/* DATA [kr,rom,cn,emoji] */
+const basic={
+  "基础·问候":[["안녕하세요","annyeonghaseyo","你好","👋"],["감사합니다","gamsahamnida","谢谢","🙏"],["이름","ireum","名字","📛"],["사람","saram","人","🧑","person portrait"],["한국어","hangugeo","韩语","🗨️"],["친구","chingu","朋友","👯","friends together"],["학생","haksaeng","学生","🧑‍🎓","student"],["선생님","seonsaengnim","老师","🧑‍🏫","teacher classroom"],["가족","gajok","家人","👨‍👩‍👧","family"],["사랑","sarang","爱","💗","heart love"]],
+  "基础·动作":[["가다","gada","去","🚶","walking"],["오다","oda","来","🏃","running"],["먹다","meokda","吃","🍽️","eating meal"],["마시다","masida","喝","🥤","drinking"],["보다","boda","看","👀"],["듣다","deutda","听","👂"],["읽다","ikda","读","📖","reading book"],["쓰다","sseuda","写","✍️","writing"],["자다","jada","睡觉","😴","sleeping"],["공부하다","gongbuhada","学习","📚","studying"]],
+  "基础·生活":[["밥","bap","饭","🍚","rice bowl"],["물","mul","水","💧","glass of water"],["집","jip","家","🏠","house home"],["학교","hakgyo","学校","🏫","school building"],["오늘","oneul","今天","📅","calendar"],["시간","sigan","时间","🕐","clock"],["좋다","jota","好","👍"],["맛있다","masitda","好吃","😋","delicious food"],["예쁘다","yeppeuda","漂亮","💄","flowers"],["재미있다","jaemiitda","有趣","😄"]]
+};
+const nature={
+  "🏞️景色·自然":[["산","san","山","⛰️","mountain"],["바다","bada","海","🌊","sea ocean beach"],["하늘","haneul","天空","☁️","blue sky clouds"],["꽃","kkot","花","🌸","flower"],["나무","namu","树","🌳","tree"],["강","gang","河/江","🏞️","river"],["눈","nun","雪","❄️","snow winter"],["비","bi","雨","🌧️","rain"],["별","byeol","星星","⭐","stars night sky"],["풍경","punggyeong","风景","🏞️","landscape scenery"]]
+};
+const lv4={
+  "🐆4급·情感":[["감정","gamjeong","情绪","💗"],["표현하다","pyohyeonhada","表达","🗣️"],["후회하다","huhoehada","后悔","😔"],["참다","chamda","忍耐","😣"],["걱정하다","geokjeonghada","担心","😟"],["만족하다","manjokhada","满足","😌"],["부럽다","bureopda","羡慕","😍"],["답답하다","dapdaphada","郁闷","😫"],["그립다","geuripda","想念","🥺"],["자랑스럽다","jarangseureopda","自豪","🥹"]],
+  "🐆4급·社会":[["사회","sahoe","社会","🏙️"],["환경","hwangyeong","环境","🌍"],["경제","gyeongje","经济","💰"],["문화","munhwa","文化","🎭"],["정보","jeongbo","信息","📊"],["기술","gisul","技术","🔧"],["발전하다","baljeonhada","发展","📈"],["변화","byeonhwa","变化","🔄"],["영향","yeonghyang","影响","⚡"],["사건","sageon","事件","📰"]],
+  "🐆4급·职场":[["면접","myeonjeop","面试","🤝"],["취직하다","chwijikhada","就业","💼"],["경험","gyeongheom","经验","🧭"],["능력","neungnyeok","能力","💪"],["노력하다","noryeokhada","努力","🔥"],["성공하다","seonggonghada","成功","🏆"],["실패하다","silpaehada","失败","💢"],["목표","mokpyo","目标","🎯"],["계획","gyehoek","计划","🗓️"],["결과","gyeolgwa","结果","✅"]],
+  "🐆4급·思考":[["판단하다","pandanhada","判断","⚖️"],["이해하다","ihaehada","理解","💡"],["설명하다","seolmyeonghada","说明","📖"],["결정하다","gyeoljeonghada","决定","✔️"],["기억하다","gieokhada","记忆","🧠"],["상상하다","sangsanghada","想象","💭"],["비교하다","bigyohada","比较","🆚"],["선택하다","seontaekhada","选择","👉"],["해결하다","haegyeolhada","解决","🔑"],["인정하다","injeonghada","承认","🙆"]],
+  "🐆4급·性格":[["성격","seonggyeok","性格","🧩"],["친절하다","chinjeolhada","亲切","🤗"],["솔직하다","soljikhada","坦率","💬"],["적극적","jeokgeukjeok","积极","🙌"],["소극적","sogeukjeok","消极","🙇"],["예의","yeui","礼貌","🙏"],["관계","gwangye","关系","🔗"],["소통","sotong","沟通","🗨️"],["신뢰","silloe","信赖","🫱"],["오해","ohae","误会","❓"]],
+  "🐆4급·状态":[["복잡하다","bokjaphada","复杂","🌀"],["단순하다","dansunhada","简单","⬜"],["중요하다","jungyohada","重要","⭐"],["필요하다","piryohada","必要","✋"],["가능하다","ganeunghada","可能","🔓"],["불가능하다","bulganeunghada","不可能","🔒"],["확실하다","hwaksilhada","确实","✅"],["적당하다","jeokdanghada","适当","⚖️"],["충분하다","chungbunhada","充分","🫙"],["부족하다","bujokhada","不足","📉"]]
+};
+const lv4b={
+  "🐆4급·时间":[["항상","hangsang","总是","⏰"],["가끔","gakkeum","偶尔","🔁"],["자주","jaju","经常","🔂"],["갑자기","gapjagi","突然","⚡"],["미리","miri","提前","⏳"],["드디어","deudieo","终于","🎉"],["벌써","beolsseo","已经","✅"],["아직","ajik","还(没)","⌛"],["곧","got","马上","🔜"],["방금","banggeum","刚刚","🕐"]],
+  "🐆4급·程度":[["아주","aju","非常","🔝"],["너무","neomu","太(过于)","💢"],["별로","byeollo","不太","🙅"],["거의","geoui","几乎","➰"],["완전히","wanjeonhi","完全","💯"],["점점","jeomjeom","渐渐","📈"],["특히","teukhi","特别","⭐"],["역시","yeoksi","果然","👌"],["오히려","ohiryeo","反而","🔄"],["무척","mucheok","十分","🔥"]],
+  "🐆4급·连接":[["그래서","geuraeseo","所以","➡️"],["그러나","geureona","然而","↔️"],["그런데","geureonde","可是/不过","💬"],["그러면","geureomyeon","那么","❓"],["그리고","geurigo","而且","➕"],["하지만","hajiman","但是","✋"],["그래도","geuraedo","即使如此","💪"],["또는","ttoneun","或者","🔀"],["왜냐하면","waenyahamyeon","因为","❔"],["따라서","ttaraseo","因此","📌"]],
+  "🐆4급·健康":[["건강","geongang","健康","💪","healthy lifestyle"],["병","byeong","病","🤒"],["약","yak","药","💊","medicine pills"],["머리","meori","头","🧠","head"],["다리","dari","腿","🦵","legs"],["아프다","apeuda","疼/不舒服","😣"],["피곤하다","pigonhada","疲惫","😪"],["운동","undong","运动","🏃","exercise sport"],["잠","jam","睡眠","😴","sleeping"],["식사","siksa","用餐","🍽️","meal dining"]],
+  "🐆4급·交通":[["교통","gyotong","交通","🚦","traffic"],["지하철","jihacheol","地铁","🚇","subway"],["버스","beoseu","公交","🚌","bus"],["기차","gicha","火车","🚆","train"],["비행기","bihaenggi","飞机","✈️","airplane"],["자동차","jadongcha","汽车","🚗","car"],["길","gil","路","🛣️","road street"],["표","pyo","票","🎟️","ticket"],["출발하다","chulbalhada","出发","🚀"],["도착하다","dochakhada","到达","📍"]],
+  "🐆4급·购物":[["가격","gagyeok","价格","💲"],["할인","harin","打折","🏷️"],["돈","don","钱","💵","money cash"],["지갑","jigap","钱包","👛","wallet"],["카드","kadeu","卡","💳","credit card"],["사다","sada","买","🛍️","shopping"],["팔다","palda","卖","🏪","store"],["비싸다","bissada","贵","💸"],["싸다","ssada","便宜","🪙"],["계산하다","gyesanhada","结账/计算","🧮"]],
+  "🐆4급·天气":[["날씨","nalssi","天气","🌤️","weather sky"],["봄","bom","春","🌸","spring blossom"],["여름","yeoreum","夏","☀️","summer beach"],["가을","gaeul","秋","🍂","autumn leaves"],["겨울","gyeoul","冬","⛄","winter snow"],["덥다","deopda","热","🥵"],["춥다","chupda","冷","🥶"],["따뜻하다","ttatteuthada","温暖","🌡️"],["시원하다","siwonhada","凉爽","🍃"],["맑다","makda","晴朗","☀️"]],
+  "🐆4급·饮食":[["식당","sikdang","餐厅","🍴","restaurant"],["메뉴","menyu","菜单","📋","menu"],["주문하다","jumunhada","点餐","📝"],["맵다","maepda","辣","🌶️","chili pepper"],["달다","dalda","甜","🍯"],["짜다","jjada","咸","🧂"],["시다","sida","酸","🍋","lemon"],["배고프다","baegopeuda","饿","😋"],["배부르다","baebureuda","饱","🤤"],["요리하다","yorihada","做饭","👨‍🍳","cooking"]],
+  "🐆4급·情绪":[["기쁘다","gippeuda","高兴","😄"],["슬프다","seulpeuda","悲伤","😢"],["화나다","hwanada","生气","😠"],["무섭다","museopda","害怕","😱"],["놀라다","nollada","惊讶","😲"],["외롭다","oeropda","孤独","😔"],["행복하다","haengbokhada","幸福","🥰"],["심심하다","simsimhada","无聊","😑"],["부끄럽다","bukkeureopda","害羞","😳"],["긴장하다","ginjanghada","紧张","😬"]],
+  "🐆4급·学习":[["시험","siheom","考试","📝","exam test"],["공부","gongbu","学习","📚","study books"],["숙제","sukje","作业","✏️"],["점수","jeomsu","分数","💯"],["합격하다","hapgyeokhada","合格/通过","🎓","graduation"],["외우다","oeuda","背诵","🧠"],["질문","jilmun","提问","❓"],["대답","daedap","回答","💬"],["문법","munbeop","语法","📖"],["단어","daneo","单词","🔤"]]
+};
+const lv4c={
+  "🐆4급·居住":[["방","bang","房间","🛏️","bedroom"],["부엌","bueok","厨房","🍳","kitchen"],["화장실","hwajangsil","卫生间","🚽","bathroom"],["가구","gagu","家具","🛋️","furniture"],["침대","chimdae","床","🛏️","bed"],["의자","uija","椅子","🪑","chair"],["책상","chaeksang","书桌","🪑","desk"],["창문","changmun","窗户","🪟","window"],["문","mun","门","🚪","door"],["벽","byeok","墙","🧱","brick wall"]],
+  "🐆4급·职业":[["직업","jigeop","职业","💼"],["의사","uisa","医生","🩺","doctor"],["간호사","ganhosa","护士","💉","nurse"],["경찰","gyeongchal","警察","👮","police officer"],["변호사","byeonhosa","律师","⚖️","lawyer"],["기자","gija","记者","📰","journalist"],["요리사","yorisa","厨师","👨‍🍳","chef"],["운전사","unjeonsa","司机","🚕","taxi driver"],["회사원","hoesawon","公司职员","🧑‍💼","office worker"],["공무원","gongmuwon","公务员","🏛️"]],
+  "🐆4급·描述":[["키","ki","个子","📏"],["외모","oemo","外貌","🪞","face appearance"],["머리카락","meorikarak","头发","💇","hair"],["얼굴","eolgul","脸","😊","face"],["목소리","moksori","嗓音","🗣️"],["표정","pyojeong","表情","😶"],["똑똑하다","ttokttokhada","聪明","🧠"],["게으르다","geeureuda","懒","🦥"],["부지런하다","bujireonhada","勤奋","🐝"],["조용하다","joyonghada","安静","🤫"]],
+  "🐆4급·行为":[["준비하다","junbihada","准备","🎒"],["약속하다","yaksokhada","约定","🤝"],["도와주다","dowajuda","帮忙","🙌"],["빌리다","billida","借(入)","📥"],["갚다","gapda","偿还","📤"],["고치다","gochida","修理","🔧","repair tools"],["잃어버리다","ireobeorida","弄丢","😵"],["찾다","chatda","寻找/找到","🔍"],["바꾸다","bakkuda","更换","🔄"],["정하다","jeonghada","决定","✔️"]],
+  "🐆4급·抽象":[["이유","iyu","理由","❔"],["방법","bangbeop","方法","🛠️"],["결심","gyeolsim","决心","✊"],["습관","seupgwan","习惯","🔁"],["장점","jangjeom","优点","➕"],["단점","danjeom","缺点","➖"],["차이","chai","差异","🔀"],["의견","uigyeon","意见","💬"],["태도","taedo","态度","🧍"],["목적","mokjeok","目的","🎯"]],
+  "🐆4급·社会II":[["정부","jeongbu","政府","🏛️"],["법","beop","法律","⚖️"],["규칙","gyuchik","规则","📏"],["권리","gwolli","权利","✊"],["의무","uimu","义务","📋"],["자유","jayu","自由","🕊️","freedom dove"],["평화","pyeonghwa","和平","☮️","peace"],["전쟁","jeonjaeng","战争","⚔️"],["역사","yeoksa","历史","📜","history"],["미래","mirae","未来","🔮","future city"]]
+};
+const kpopWords=[["가수","gasu","歌手","🎤"],["노래","norae","歌","🎵"],["춤","chum","舞蹈","💃"],["무대","mudae","舞台","🎬"],["콘서트","konseoteu","演唱会","🎫"],["앨범","aelbeom","专辑","💿"],["최애","choae","本命","💖"],["응원봉","eungwonbong","应援棒","🪄"],["팬","paen","粉丝","💕"],["컴백","keombaek","回归","🔁"]];
+
+const decks={},deckType={};
+for(const k in nature){decks[k]=nature[k];deckType[k]='photo';}
+for(const k in basic){decks[k]=basic[k];deckType[k]='base';}
+for(const k in lv4){decks[k]=lv4[k];deckType[k]='t4';}
+for(const k in lv4b){decks[k]=lv4b[k];deckType[k]='t4';}
+for(const k in lv4c){decks[k]=lv4c[k];deckType[k]='t4';}
+decks["🎤K-pop词"]=kpopWords;deckType["🎤K-pop词"]='kpop';
+for(const k in decks)decks[k]=decks[k].map(a=>({kr:a[0],rom:a[1],cn:a[2],e:a[3],kw:a[4]}));
+const allDeck=[];for(const k in decks)allDeck.push(...decks[k]);
+decks["🔄全部连续背"]=allDeck;deckType["🔄全部连续背"]='base';
+
+let daily={};
+function allWords(){let a=[];for(const k in decks)a=a.concat(decks[k]);return a;}
+function setDaily(w){daily.kr=w.kr;document.getElementById('dEmoji').textContent=w.e;
+  document.getElementById('dWord').textContent=w.kr;document.getElementById('dRom').textContent=w.rom;document.getElementById('dCn').textContent=w.cn;}
+function dailyByDate(){const a=allWords();const day=Math.floor((Date.now()-new Date().getTimezoneOffset()*6e4)/864e5);setDaily(a[day%a.length]);}
+function newDaily(){const a=allWords();setDaily(a[Math.floor(Math.random()*a.length)]);}
+dailyByDate();
+
+const missions=[
+  {i:'📚',t:'背 10 个 4级单词',s:'看图记词 + 测验',tab:'memo'},
+  {i:'📖',t:'学 2–3 条语法',s:'句型+例句跟读',tab:'grammar'},
+  {i:'🎧',t:'听 2 段听力',s:'仿TOPIK听力题',tab:'listen'},
+  {i:'🔊',t:'跟读 5 个句子',s:'先听再读',tab:'read'},
+  {i:'🎤',t:'看 1 个 K-pop MV',s:'4个团任选',tab:'kpop'},
+  {i:'⭐',t:'学 5 个追星句',s:'在K-pop页跟读',tab:'kpop'},
+  {i:'📝',t:'做 1 套小卷',s:'看解析',tab:'test'}
+];
+const done=new Set();
+function renderMissions(){const c=document.getElementById('missionList');c.innerHTML='';
+  missions.forEach((m,i)=>{const d=document.createElement('div');d.className='mission'+(done.has(i)?' done':'');
+    d.innerHTML=`<div class="check" onclick="toggleM(${i})">✓</div><div class="mtxt"><div class="mt">${m.i} ${m.t}</div><div class="ms">${m.s}</div></div><div class="mgo"><button class="btn" onclick="goTab('${m.tab}')">开始 →</button></div>`;c.appendChild(d);});
+  const n=done.size,tot=missions.length;document.getElementById('mProg').textContent=n>=tot?'全部完成!오늘도 최고 👑':`今天完成 ${n} / ${tot}`;
+  document.getElementById('mBar').style.width=(n/tot*100)+'%';}
+function toggleM(i){done.has(i)?done.delete(i):done.add(i);renderMissions();}
+renderMissions();
+
+/* K-pop sentences (original) */
+const njS=[{ko:"저는 뉴진스를 정말 좋아해요.",t:"我真的很喜欢 NewJeans。",lv:"1급"},{ko:"뉴진스 노래는 너무 좋아요.",t:"NewJeans 的歌太好听了。",lv:"1급"},{ko:"'Ditto' 뮤직비디오를 매일 봐요.",t:"我每天看《Ditto》的MV。",lv:"2급"},{ko:"민지가 제 최애예요.",t:"Minji 是我的本命。",lv:"2급"},{ko:"뉴진스 콘서트에 꼭 가고 싶어요.",t:"我一定要去 NewJeans 演唱会。",lv:"3급"}];
+const enhS=[{ko:"엔하이픈은 정말 멋있어요.",t:"ENHYPEN 真的很帅。",lv:"1급"},{ko:"저는 엔진이에요.",t:"我是 ENGENE(粉丝)。",lv:"1급"},{ko:"응원봉을 사고 싶어요.",t:"我想买应援棒。",lv:"2급"},{ko:"'Bite Me' 안무를 따라 하고 있어요.",t:"我在学《Bite Me》的舞。",lv:"3급"},{ko:"콘서트 표를 예매했어요.",t:"我抢到了演唱会的票。",lv:"3급"}];
+const aesS=[{ko:"에스파 노래는 중독성이 강해요.",t:"aespa 的歌很洗脑。",lv:"2급"},{ko:"'Supernova'를 매일 들어요.",t:"我每天听《Supernova》。",lv:"2급"},{ko:"저는 마이예요.",t:"我是 MY(粉丝)。",lv:"1급"},{ko:"콘셉트가 정말 독특해요.",t:"概念真的很独特。",lv:"3급"},{ko:"춤이 정말 칼군무예요.",t:"舞蹈真是整齐划一(刀群舞)。",lv:"3급"}];
+function buildKpopSents(arr,id){const c=document.getElementById(id);c.innerHTML='';
+  arr.forEach(s=>{const d=document.createElement('div');d.className='sent';
+    d.innerHTML=`<button class="speak" onclick="speak('${s.ko}')">🔊</button><div class="txt"><div class="ko">${s.ko}<span class="lvltag">${s.lv}</span></div><div class="t">${s.t}</div></div>`;c.appendChild(d);});}
+buildKpopSents(njS,'njSents');buildKpopSents(enhS,'enhSents');buildKpopSents(aesS,'aesSents');
+(function(){const c=document.getElementById('kpopVocab');
+  decks['🎤K-pop词'].forEach(w=>{const d=document.createElement('div');d.className='vchip';
+    d.innerHTML=`<span class="em">${w.e}</span><div class="l"><div class="ko">${w.kr}</div><div class="c">${w.cn}</div></div><button class="speak" style="font-size:18px" onclick="speak('${w.kr}')">🔊</button>`;c.appendChild(d);});})();
+
+/* memorize */
+let curDeckName=Object.keys(decks)[0],curDeck=decks[curDeckName],mi=0;
+function buildDeckPick(){const c=document.getElementById('deckPick');c.innerHTML='';
+  Object.keys(decks).forEach(name=>{const b=document.createElement('button');
+    b.className='tab '+(deckType[name]==='t4'?'t4':'')+(name===curDeckName?' active':'');b.textContent=name;
+    b.onclick=()=>{curDeckName=name;curDeck=decks[name];mi=0;buildDeckPick();showCard();document.getElementById('quizCard').style.display='none';};c.appendChild(b);});}
+const deckGrad={t4:'linear-gradient(135deg,#ffe680,#ffb347)',base:'linear-gradient(135deg,#a6ecd8,#3fc9a3)',kpop:'linear-gradient(135deg,#ffb3d9,#ff5fa2)',photo:'linear-gradient(135deg,#a6d8ff,#5aa0ff)'};
+function renderWordImage(box,w,useIdol){box.innerHTML='';box.style.backgroundImage='';
+  if(useIdol&&idolPhotos.length){box.style.background='';box.style.backgroundImage='url('+idolPhotos[mi%idolPhotos.length].src+')';return;}
+  box.style.background=deckGrad[deckType[curDeckName]]||deckGrad.base;
+  const im=new Image();im.style.cssText='width:100%;height:100%;object-fit:cover;display:block';
+  const polli='https://image.pollinations.ai/prompt/'+encodeURIComponent((w.kw||w.cn)+' clear illustration')+'?width=320&height=320&nologo=true&seed=11';
+  im.onerror=()=>{if(im.dataset.s!=='2'){im.dataset.s='2';im.src=polli;}else{im.remove();box.textContent=w.e;}};
+  if(w.kw){im.src='https://loremflickr.com/320/320/'+encodeURIComponent(w.kw.split(' ').join(','));}
+  else{im.dataset.s='2';im.src=polli;}
+  box.appendChild(im);}
+function showCard(){const w=curDeck[mi];document.getElementById('flash').classList.remove('flipped');
+  renderWordImage(document.getElementById('fImg'),w,deckType[curDeckName]==='kpop');
+  document.getElementById('fCat').textContent=curDeckName;
+  document.getElementById('fImg2').textContent=w.e;
+  document.getElementById('fKo').textContent=w.kr;document.getElementById('fRom').textContent=w.rom;
+  document.getElementById('fCn').textContent=w.cn;document.getElementById('fRom2').textContent=w.rom;
+  document.getElementById('memoProg').textContent=`第 ${mi+1} / ${curDeck.length}`;
+  document.getElementById('memoBar').style.width=((mi+1)/curDeck.length*100)+'%';}
+function flipCard(){document.getElementById('flash').classList.toggle('flipped');}
+function gotoDeck(name){curDeckName=name;curDeck=decks[name];buildDeckPick();}
+function nextCard(){if(mi<curDeck.length-1){mi++;showCard();}
+  else{const ns=Object.keys(decks),nx=ns[(ns.indexOf(curDeckName)+1)%ns.length];gotoDeck(nx);mi=0;showCard();toast('🎉 这组背完!自动进入「'+nx+'」');}}
+function prevCard(){if(mi>0){mi--;showCard();}
+  else{const ns=Object.keys(decks),pv=ns[(ns.indexOf(curDeckName)-1+ns.length)%ns.length];gotoDeck(pv);mi=curDeck.length-1;showCard();}}
+function toast(m){let t=document.getElementById('toast');if(!t){t=document.createElement('div');t.id='toast';t.style.cssText='position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:linear-gradient(180deg,#ff7ab4,#ff2e86);color:#fff;padding:11px 18px;border-radius:20px;font-family:Baloo 2;font-weight:700;z-index:99;box-shadow:0 6px 16px rgba(120,60,140,.3);transition:opacity .3s';document.body.appendChild(t);}t.textContent=m;t.style.opacity='1';clearTimeout(t._t);t._t=setTimeout(()=>{t.style.opacity='0';},1900);}
+buildDeckPick();showCard();
+
+/* quiz */
+let quizList=[],qi=0,qscore=0;
+function shuffle(a){return a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(x=>x[1]);}
+function startQuiz(){quizList=shuffle([...curDeck]).slice(0,Math.min(8,curDeck.length));qi=0;qscore=0;
+  document.getElementById('quizCard').style.display='block';document.getElementById('quizResult').style.display='none';
+  document.getElementById('quizCard').scrollIntoView({behavior:'smooth'});showQuiz();}
+function showQuiz(){if(qi>=quizList.length){endQuiz();return;}const w=quizList[qi];
+  document.getElementById('quizCount').textContent=`第 ${qi+1} / ${quizList.length} · 选正确的中文`;
+  renderWordImage(document.getElementById('quizImg'),w,false);document.getElementById('quizWord').textContent=w.kr;
+  const wrongs=shuffle(curDeck.filter(x=>x.cn!==w.cn)).slice(0,3),opts=shuffle([w,...wrongs]);
+  const box=document.getElementById('quizOpts');box.innerHTML='';
+  opts.forEach(o=>{const b=document.createElement('button');b.className='qopt';b.textContent=o.cn;
+    b.onclick=()=>{document.querySelectorAll('#quizOpts .qopt').forEach(x=>x.style.pointerEvents='none');
+      if(o.cn===w.cn){b.classList.add('right');qscore++;}else{b.classList.add('wrong');[...box.children].forEach(c=>{if(c.textContent===w.cn)c.classList.add('right');});}
+      speak(w.kr);setTimeout(()=>{qi++;showQuiz();},850);};box.appendChild(b);});}
+function endQuiz(){document.getElementById('quizWord').textContent='';document.getElementById('quizImg').innerHTML='';document.getElementById('quizImg').style.background='';
+  document.getElementById('quizOpts').innerHTML='';document.getElementById('quizCount').textContent='';
+  const pct=Math.round(qscore/quizList.length*100);
+  let msg=pct>=80?'완벽해요! 太棒了 👑':pct>=50?'잘했어요! 继续 💪':'화이팅! 多看几遍 💕';
+  const r=document.getElementById('quizResult');r.style.display='block';
+  r.innerHTML=`得分:${qscore} / ${quizList.length}（${pct}分）<br>${msg}<br><button class="btn" onclick="startQuiz()" style="margin-top:10px">🔁 再来</button>`;}
+
+/* listening */
+const listenItems=[
+  {audio:"주말에 뭐 할 거예요? 친구하고 영화를 보러 갈 거예요.",q:"남자는 주말에 무엇을 해요?",o:["영화를 봐요","공부해요","집에서 쉬어요","여행을 가요"],a:0,tr:"여: 주말에 뭐 할 거예요?\n남: 친구하고 영화를 보러 갈 거예요.\n(译:周末做什么?/ 要和朋友去看电影。)"},
+  {audio:"잠시 후 세 시부터 도서관에서 한국어 말하기 대회가 있겠습니다. 참가하실 분은 이층으로 오십시오.",q:"대회는 몇 시에 시작해요?",o:["한 시","두 시","세 시","네 시"],a:2,tr:"广播:稍后三点起,图书馆将举行韩语演讲比赛,参加者请到二楼。"},
+  {audio:"여기 김치찌개 하나 주세요. 네, 음료수도 드릴까요? 아니요, 괜찮아요.",q:"남자는 무엇을 주문했어요?",o:["김치찌개","비빔밥","냉면","불고기"],a:0,tr:"男:请给我一份泡菜汤。/ 女:好的,需要饮料吗?/ 男:不用,谢谢。"},
+  {audio:"내일은 비가 오고 바람이 많이 불겠습니다. 우산을 꼭 가지고 나가세요.",q:"내일 날씨는 어때요?",o:["맑아요","눈이 와요","비가 와요","더워요"],a:2,tr:"天气预报:明天有雨且风大,请务必带伞出门。"},
+  {audio:"이번 방학에 뭐 할 계획이에요? 한국어를 더 열심히 공부하려고 해요. 시월에 시험이 있거든요.",q:"이 사람은 방학에 무엇을 할 거예요?",o:["여행을 가요","아르바이트를 해요","한국어를 공부해요","운동을 해요"],a:2,tr:"问:这个假期有什么计划?/ 答:打算更努力学韩语,因为十月有考试。"},
+  {audio:"실례지만, 시청에 어떻게 가요? 이 길로 쭉 가서 사거리에서 왼쪽으로 가세요.",q:"시청은 어느 쪽에 있어요?",o:["왼쪽","오른쪽","뒤쪽","위쪽"],a:0,tr:"问:请问市政厅怎么走?/ 答:沿这条路直走,在十字路口往左拐。(왼쪽=左)"},
+  {audio:"손님, 이 옷은 지금 세일 중이라서 삼만 원이에요. 그럼 이걸로 주세요.",q:"이 옷은 얼마예요?",o:["만 원","이만 원","삼만 원","사만 원"],a:2,tr:"店员:这件衣服正在打折,3万韩元。/ 顾客:那就要这件。"},
+  {audio:"다음 주 월요일에 회의가 있으니까 자료를 미리 준비해 주세요.",q:"무엇을 준비해야 해요?",o:["회의 자료","점심","옷","표"],a:0,tr:"下周一有会议,请提前准备好资料。(자료=资料)"},
+  {audio:"요즘 운동을 시작했는데 건강이 훨씬 좋아진 것 같아요. 저도 같이 하고 싶어요.",q:"이 사람은 요즘 무엇을 해요?",o:["요리","운동","여행","공부"],a:1,tr:"最近开始运动,感觉身体好多了。/ 我也想一起做。(운동=运动)"}
+];
+function buildListen(){const c=document.getElementById('listenList');c.innerHTML='';
+  listenItems.forEach((it,i)=>{const d=document.createElement('div');d.className='lisn';d.id='li'+i;
+    let h=`<div class="lhd">第 ${i+1} 题</div>
+      <div style="margin-bottom:8px"><button class="btn mint" onclick="speak(listenItems[${i}].audio)">🔊 听</button>
+      <button class="btn ghost" onclick="toggleTr(${i})">看原文/译</button></div>
+      <div class="qn" style="font-weight:700;margin-bottom:4px">${it.q}</div>`;
+    it.o.forEach((op,j)=>{h+=`<button class="qopt" onclick="pickL(${i},${j},this)">${'①②③④'[j]} ${op}</button>`;});
+    h+=`<div class="transcript ko" id="tr${i}">${it.tr.replace(/\n/g,'<br>')}</div>`;
+    d.innerHTML=h;c.appendChild(d);});}
+function toggleTr(i){document.getElementById('tr'+i).classList.toggle('show');}
+function pickL(i,j,el){const it=listenItems[i];
+  document.querySelectorAll('#li'+i+' .qopt').forEach((b,k)=>{b.style.pointerEvents='none';
+    if(k===it.a)b.classList.add('right');else if(k===j)b.classList.add('wrong');});
+  document.getElementById('tr'+i).classList.add('show');}
+buildListen();
+
+/* read along */
+const sentences=[{ko:"저는 학생이에요.",t:"我是学生。",lv:"1급"},{ko:"한국어를 공부해요.",t:"我学韩语。",lv:"1급"},{ko:"오늘 날씨가 좋아요.",t:"今天天气很好。",lv:"1급"},{ko:"친구를 만나러 가요.",t:"我去见朋友。",lv:"2급"},{ko:"이 음식이 정말 맛있어요.",t:"这个食物真好吃。",lv:"2급"},{ko:"주말에 보통 무엇을 해요?",t:"周末一般做什么?",lv:"2급"},{ko:"한국어가 어렵지만 재미있어요.",t:"韩语虽然难,但很有趣。",lv:"3급"},{ko:"내일 시험이 있어서 도서관에 가요.",t:"明天有考试,所以去图书馆。",lv:"3급"},{ko:"제 목표는 토픽 4급을 받는 거예요.",t:"我的目标是拿到TOPIK4级。",lv:"4급"},{ko:"열심히 노력하면 꿈을 이룰 수 있어요.",t:"努力的话就能实现梦想。",lv:"4급"}];
+function buildSents(){const c=document.getElementById('sentList');c.innerHTML='';
+  sentences.forEach(s=>{const d=document.createElement('div');d.className='sent';
+    d.innerHTML=`<button class="speak" onclick="speak('${s.ko}')">🔊</button><div class="txt"><div class="ko">${s.ko}<span class="lvltag">${s.lv}</span></div><div class="t">${s.t}</div></div>`;c.appendChild(d);});}
+buildSents();
+function readAll(){let i=0;function next(){if(i>=sentences.length)return;
+  const u=new SpeechSynthesisUtterance(sentences[i].ko);u.lang='ko-KR';u.rate=speed;u.pitch=1.04;
+  const ko=speechSynthesis.getVoices().find(v=>v.lang&&v.lang.toLowerCase().startsWith('ko'));if(ko)u.voice=ko;
+  u.onend=()=>{i++;setTimeout(next,350);};speechSynthesis.speak(u);}speechSynthesis.cancel();next();}
+
+/* test */
+const testQs=[
+  {q:"빈칸에 알맞은 것을?<br>시험에 떨어져서 정말 ( ).",o:["기뻐요","후회해요","만족해요","즐거워요"],a:1,ex:"考试落榜→后悔「후회해요」。"},
+  {q:"밑줄 친 말과 비슷한 것은?<br>이 문제는 너무 <b>복잡해요</b>.",o:["단순해요","어려워요","쉬워요","간단해요"],a:1,ex:"복잡하다 ≈ 어렵다。"},
+  {q:"면접을 잘 봐서 회사에 ( ).",o:["취직했어요","실패했어요","후회했어요","걱정했어요"],a:0,ex:"面试顺利→就业「취직했어요」。"},
+  {q:"「부족하다」의 반대말은?",o:["복잡하다","충분하다","중요하다","가능하다"],a:1,ex:"부족하다 ↔ 충분하다。"},
+  {q:"열심히 공부하( ) 4급을 받을 수 있어요.",o:["면","지만","는데","어서"],a:0,ex:"V-(으)면=如果…的话。"},
+  {q:"「영향」의 뜻은?",o:["环境","影响","经验","结果"],a:1,ex:"영향=影响。"},
+  {q:"친구의 말을 ( ) 결정했어요.",o:["참고","이해하고","후회하고","걱정하고"],a:1,ex:"理解后做决定「이해하고」。"},
+  {q:"높임말로 알맞은 것을?<br>할머니께서 식사를 ( ).",o:["먹어요","드세요","먹어","먹고"],a:1,ex:"对长辈用敬语→드세요。"},
+  {q:"「응원봉」의 뜻은?",o:["专辑","应援棒","演唱会","粉丝"],a:1,ex:"응원봉=应援棒。"},
+  {q:"글을 읽고 답하세요.<br><div class='reading'>저는 한국어를 6개월 동안 공부했어요. 처음에는 어려웠지만 지금은 재미있어요. 제 목표는 10월에 토픽 4급을 받는 거예요.</div>이 사람의 목표는?",o:["한국에 가는 것","토픽 4급을 받는 것","친구를 만나는 것","책을 사는 것"],a:1,ex:"文中说 목표는 토픽 4급을 받는 거예요。"},
+  {q:"빈칸: 비가 오( ) 우산을 가져가세요.",o:["니까","어서","지만","는데"],a:0,ex:"-(으)니까 表原因(因为下雨,所以…)。"},
+  {q:"밑줄 친 말과 비슷한 것?<br>요즘 너무 <b>피곤해요</b>.",o:["힘들어요","즐거워요","행복해요","편해요"],a:0,ex:"피곤하다(疲惫) ≈ 힘들다(累/吃力)。"},
+  {q:"「장점」의 반대말은?",o:["단점","결심","습관","태도"],a:0,ex:"장점(优点)↔단점(缺点)。"},
+  {q:"빈칸: 한국어 실력이 점점 ( ).",o:["늘었어요","줄였어요","막았어요","닫았어요"],a:0,ex:"实力渐渐「提高了 늘었어요」。"},
+  {q:"빈칸: 시험에 ( ) 열심히 공부했어요.",o:["합격하려고","합격해서","합격하지만","합격하니까"],a:0,ex:"-(으)려고=为了…(为了通过考试而努力)。"},
+  {q:"「의사」가 일하는 곳은?",o:["병원","학교","은행","식당"],a:0,ex:"의사(医生)在 병원(医院)工作。"}
+];
+let testAns={};
+function buildTest(){const c=document.getElementById('testList');c.innerHTML='';testAns={};
+  testQs.forEach((q,i)=>{const d=document.createElement('div');d.className='tq';d.id='tq'+i;
+    let h=`<div class="qn">${i+1}. ${q.q}</div>`;
+    q.o.forEach((op,j)=>{h+=`<button class="qopt" onclick="pick(${i},${j},this)">${'①②③④'[j]} ${op}</button>`;});
+    d.innerHTML=h;c.appendChild(d);});document.getElementById('testScore').style.display='none';}
+function pick(i,j,el){testAns[i]=j;document.querySelectorAll('#tq'+i+' .qopt').forEach(x=>x.style.background='');el.style.background='var(--mint-soft)';}
+function submitTest(){let s=0;
+  testQs.forEach((q,i)=>{const btns=document.querySelectorAll('#tq'+i+' .qopt');
+    btns.forEach((b,j)=>{b.style.pointerEvents='none';b.classList.remove('right','wrong');b.style.background='';
+      if(j===q.a)b.classList.add('right');else if(testAns[i]===j)b.classList.add('wrong');});
+    if(testAns[i]===q.a)s++;const d=document.getElementById('tq'+i);
+    if(!d.querySelector('.exp')){const e=document.createElement('div');e.className='exp hint';e.innerHTML='💡 解析:'+q.ex;d.appendChild(e);}});
+  const pct=Math.round(s/testQs.length*100);
+  let msg=pct>=80?'대박! 这水平很稳 👑':pct>=50?'좋아요! 看解析再练 💪':'괜찮아요! 先背熟单词 💕';
+  const r=document.getElementById('testScore');r.style.display='block';
+  r.innerHTML=`得分:${s} / ${testQs.length}（${pct}分）<br>${msg}`;r.scrollIntoView({behavior:'smooth'});}
+function resetTest(){buildTest();window.scrollTo({top:0});}
+buildTest();
+const grammar=[
+ {p:"-아/어서",cn:"因为~;先做A再做B(先后)",ko:"시간이 없어서 못 갔어요.",t:"因为没时间,没去成。",lv:"初"},
+ {p:"-(으)니까",cn:"因为~(后面常接命令/建议)",ko:"비가 오니까 우산을 가져가세요.",t:"下雨了,带上伞吧。",lv:"初"},
+ {p:"-(으)면",cn:"如果~的话",ko:"시간이 있으면 같이 가요.",t:"有时间的话一起去。",lv:"初"},
+ {p:"-지만",cn:"虽然~但是",ko:"비싸지만 정말 좋아요.",t:"虽然贵,但真的很好。",lv:"初"},
+ {p:"-아/어야 하다",cn:"必须~",ko:"내일까지 끝내야 해요.",t:"明天前必须完成。",lv:"初"},
+ {p:"-(으)면 안 되다",cn:"不可以~",ko:"여기서 사진을 찍으면 안 돼요.",t:"这里不可以拍照。",lv:"初"},
+ {p:"-아/어도 되다",cn:"可以~(许可)",ko:"여기 앉아도 돼요?",t:"可以坐这里吗?",lv:"初"},
+ {p:"-(으)ㄹ게요",cn:"我会~(承诺/意志)",ko:"제가 도와줄게요.",t:"我来帮你。",lv:"初"},
+ {p:"-는데 / -(으)ㄴ데",cn:"转折 / 铺垫背景",ko:"한국어는 어려운데 재미있어요.",t:"韩语难,不过有趣。",lv:"中"},
+ {p:"-(으)려고 하다",cn:"打算~",ko:"내년에 한국에 가려고 해요.",t:"打算明年去韩国。",lv:"中"},
+ {p:"-기 위해서",cn:"为了~",ko:"시험에 합격하기 위해서 열심히 공부해요.",t:"为了通过考试努力学习。",lv:"中"},
+ {p:"-(으)ㄴ 적이 있다",cn:"曾经~过(经历)",ko:"한국에 가 본 적이 있어요.",t:"我去过韩国。",lv:"中"},
+ {p:"-기로 하다",cn:"决定~",ko:"매일 단어를 외우기로 했어요.",t:"决定每天背单词。",lv:"中"},
+ {p:"-는 동안",cn:"在~期间",ko:"제가 자는 동안 전화가 왔어요.",t:"我睡觉时来了电话。",lv:"中"},
+ {p:"-(으)ㄴ 후에 / -기 전에",cn:"~之后 / ~之前",ko:"밥을 먹은 후에 산책해요.",t:"吃完饭后散步。",lv:"中"},
+ {p:"-다가",cn:"做着A中途转B",ko:"집에 가다가 친구를 만났어요.",t:"回家途中遇到了朋友。",lv:"中"},
+ {p:"-(으)ㄹ수록",cn:"越~越~",ko:"보면 볼수록 좋아져요.",t:"越看越喜欢。",lv:"中高"},
+ {p:"-느라고",cn:"因忙于A(导致负面B)",ko:"게임하느라고 숙제를 못 했어요.",t:"光顾着打游戏,没做作业。",lv:"中高"},
+ {p:"-는 바람에",cn:"因(意外)导致~",ko:"늦게 일어나는 바람에 지각했어요.",t:"因为起晚了迟到了。",lv:"中高"},
+ {p:"-더라도",cn:"即使~也",ko:"힘들더라도 포기하지 마세요.",t:"即使辛苦也别放弃。",lv:"中高"},
+ {p:"-는 편이다",cn:"算是偏~",ko:"저는 매운 음식을 잘 먹는 편이에요.",t:"我算是挺能吃辣的。",lv:"中高"},
+ {p:"-기 마련이다",cn:"必然 / 难免~",ko:"누구나 실수하기 마련이에요.",t:"任何人都难免犯错。",lv:"高"}
+];
+function buildGrammar(){const c=document.getElementById('gramList');c.innerHTML='';
+  grammar.forEach(g=>{const d=document.createElement('div');d.className='gram';
+    d.innerHTML=`<div class="gp">${g.p}<span class="glv">${g.lv}</span></div><div class="gm">${g.cn}</div>
+      <div style="display:flex;align-items:center;gap:10px"><button class="speak" onclick="speak('${g.ko}')">🔊</button>
+      <div><div class="ge ko">${g.ko}</div><div class="gt">${g.t}</div></div></div>`;c.appendChild(d);});}
+buildGrammar();
+(function(){const wb=document.getElementById('writeBox');if(wb)wb.addEventListener('input',()=>{document.getElementById('wcount').textContent=wb.value.length+' 자';});})();
+</script>
+<script src="sync.js"></script>
+</body>
+</html>
