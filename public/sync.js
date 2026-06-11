@@ -20,11 +20,11 @@
 
   function render() {
     if (token) {
-      bar.innerHTML = `<span id="acctstats" style="background:#fff;border:2px solid #ffd1e8;border-radius:20px;padding:5px 12px;font-size:12px;font-weight:700;color:#ff2e86;box-shadow:0 3px 0 rgba(120,60,140,.12)">👤 ${username}</span><button id="logoutBtn" style="background:#fff;border:2px solid #ffd1e8;border-radius:20px;padding:5px 10px;font-size:12px;font-weight:700;color:#ff2e86;cursor:pointer">退出</button>`;
+      bar.innerHTML = `<span id="acctstats" style="background:#fff;border:2px solid #ffd1e8;border-radius:20px;padding:5px 12px;font-size:12px;font-weight:700;color:#ff2e86;box-shadow:0 3px 0 rgba(120,60,140,.12)">👤 ${username}</span><button id="logoutBtn" style="background:#fff;border:2px solid #ffd1e8;border-radius:20px;padding:5px 10px;font-size:12px;font-weight:700;color:#ff2e86">退出</button>`;
       document.getElementById('logoutBtn').onclick = () => { token = ''; username = ''; localStorage.removeItem(LS); localStorage.removeItem(LSU); render(); };
       loadProgress();
     } else {
-      bar.innerHTML = `<button id="loginBtn" style="background:linear-gradient(180deg,#ff7ab4,#ff2e86);color:#fff;border:none;border-radius:20px;padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 4px 0 #ff2e86">登录/注册 存进度</button>`;
+      bar.innerHTML = `<button id="loginBtn" style="background:linear-gradient(180deg,#ff7ab4,#ff2e86);color:#fff;border:none;border-radius:20px;padding:7px 14px;font-size:13px;font-weight:700;box-shadow:0 4px 0 #ff2e86">登录/注册 存进度</button>`;
       document.getElementById('loginBtn').onclick = openModal;
     }
   }
@@ -39,10 +39,10 @@
       <input id="lpass" type="password" placeholder="密码(至少4位)" autocomplete="current-password" style="width:100%;box-sizing:border-box;margin:5px 0;padding:11px;border:2px solid #ffd1e8;border-radius:12px;font-size:15px">
       <div id="lerr" style="color:#ff2e86;font-size:13px;min-height:18px"></div>
       <div style="display:flex;gap:8px;margin-top:6px">
-        <button id="doLogin" style="flex:1;background:linear-gradient(180deg,#ff7ab4,#ff2e86);color:#fff;border:none;border-radius:12px;padding:11px;font-weight:700;cursor:pointer">登录</button>
-        <button id="doReg" style="flex:1;background:#fff;color:#ff2e86;border:2px solid #ff5fa2;border-radius:12px;padding:11px;font-weight:700;cursor:pointer">注册</button>
+        <button id="doLogin" style="flex:1;background:linear-gradient(180deg,#ff7ab4,#ff2e86);color:#fff;border:none;border-radius:12px;padding:11px;font-weight:700">登录</button>
+        <button id="doReg" style="flex:1;background:#fff;color:#ff2e86;border:2px solid #ff5fa2;border-radius:12px;padding:11px;font-weight:700">注册</button>
       </div>
-      <button id="closeM" style="width:100%;margin-top:8px;background:none;border:none;color:#8579a0;cursor:pointer;font-size:13px">取消</button></div>`;
+      <button id="closeM" style="width:100%;margin-top:8px;background:none;border:none;color:#8579a0;font-size:13px">取消</button></div>`;
     document.body.appendChild(m);
     document.getElementById('closeM').onclick = () => m.remove();
     async function go(path) {
@@ -91,8 +91,8 @@
       const b = document.createElement('div');
       b.id = 'srsbar'; b.style.cssText = 'text-align:center;margin:8px 0';
       b.innerHTML = `<span style="font-size:12px;color:#8579a0;display:block;margin-bottom:2px">登录后,下面两个按钮会按「遗忘曲线」安排复习</span>
-      <button onclick="krRev('again')" style="background:#fff;color:#ff2e86;border:2px solid #ff5fa2;border-radius:14px;padding:9px 16px;font-weight:700;cursor:pointer;margin:0 4px">↺ 再来</button>
-      <button onclick="krRev('good')" style="background:linear-gradient(180deg,#a6ecd8,#3fc9a3);color:#0d5a45;border:none;border-radius:14px;padding:9px 16px;font-weight:700;cursor:pointer;margin:0 4px">✓ 记住了</button>`;
+      <button onclick="krRev('again')" style="background:#fff;color:#ff2e86;border:2px solid #ff5fa2;border-radius:14px;padding:9px 16px;font-weight:700;margin:0 4px">↺ 再来</button>
+      <button onclick="krRev('good')" style="background:linear-gradient(180deg,#a6ecd8,#3fc9a3);color:#0d5a45;border:none;border-radius:14px;padding:9px 16px;font-weight:700;margin:0 4px">✓ 记住了</button>`;
       flash.parentNode.insertBefore(b, flash.nextSibling);
     }
   }
