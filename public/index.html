@@ -706,7 +706,42 @@ const FAST_WORD_IMAGE={버스:photo('photo-1544620347-c4fd4a3d5957'),지하철:p
 function stableHash(s){let h=0;String(s||'').split('').forEach(ch=>{h=(h*31+ch.charCodeAt(0))>>>0;});return h%997;}
 function imageKeyword(w){if(!w)return'korea study';if(WORD_IMAGE_QUERY[w.kr])return WORD_IMAGE_QUERY[w.kr];const t=String(w.cn||'')+String(w.kr||'');const pairs=[[/公交|巴士|车站|地铁|出租|机场|交通|道路|驾驶/,'korea transportation'],[/米饭|泡菜|肉|水果|咖啡|茶|面|汤|餐|吃|喝|味/,'korean food'],[/医院|医生|药|患者|健康|病|治疗|身体|头|眼|手|脚/,'health hospital'],[/学习|学校|书|考试|作业|课堂|教育|资料|读|写/,'study books'],[/公司|职场|会议|业务|同事|就业|工作/,'office work'],[/钱|价格|卡|折扣|银行|消费|市场|购物/,'shopping money'],[/电话|手机|电脑|网络|搜索|信息|科技/,'technology smartphone'],[/家|房|店|公园|图书馆|前|后|旁|里面|外边|方向/,'city place'],[/今天|明天|时间|周末|季节|天气|雨|雪|热|冷|风/,'weather calendar'],[/家人|爸爸|妈妈|朋友|孩子|学生|老师|人/,'family friends'],[/电影|音乐|歌|运动|旅行|兴趣|演出|展览|文化|艺术/,'culture concert'],[/动物|狗|猫|老虎|鸭|花|树|海|山|自然|环境/,'nature animals'],[/法律|政策|制度|权利|义务/,'law courthouse'],[/媒体|新闻|报道|舆论/,'newspaper media']];for(const p of pairs){if(p[0].test(t))return p[1];}return THEME_IMAGE_QUERY[w.theme]||'korea daily life';}
 function pooledThemeImage(w){const pool=FAST_THEME_POOLS[w.theme];if(pool&&pool.length)return photo(pool[stableHash((w.kr||'')+(w.cn||''))%pool.length]);return FAST_THEME_IMAGE[w.theme]||photo('photo-1500530855697-b586d89ba3ee');}
-function wordImageUrl(w){if(!w)return fallbackImage({theme:'复习'});if(FAST_WORD_IMAGE[w.kr])return FAST_WORD_IMAGE[w.kr];return pooledThemeImage(w);}
+function cleanImageTerm(s){return String(s||'').split(/[，,；;、]/)[0].replace(/[()（）【】《》「」"']/g,' ').replace(/\\s+/g,' ').trim();}
+function wordVisualKeyword(w){
+  if(!w)return'korean study';
+  if(WORD_IMAGE_QUERY[w.kr])return WORD_IMAGE_QUERY[w.kr];
+  const raw=cleanImageTerm(w.cn)||w.kr;
+  const t=raw+String(w.cn||'')+String(w.kr||'');
+  const pairs=[
+    [/公交|巴士|公共汽车|버스/,'bus'],[/地铁|지하철/,'subway train'],[/出租|택시/,'taxi'],[/机场|공항/,'airport'],[/车站|정류장|터미널/,'bus station'],[/道路|길|도로/,'road'],
+    [/泡菜|김치/,'kimchi'],[/米饭|大米|밥|쌀/,'rice'],[/咖啡|커피/,'coffee'],[/茶|차/,'tea cup'],[/肉|고기/,'meat'],[/水果|과일|香蕉|바나나|葡萄|포도|橙|오렌지/,'fruit'],[/蛋糕|케이크/,'cake'],[/汤|탕|面|면|饺|만두|豆腐|두부/,'korean food'],
+    [/医院|병원/,'hospital'],[/医生|의사/,'doctor'],[/药|약/,'medicine'],[/患者|환자/,'patient'],[/头|머리/,'head'],[/眼|눈/,'eyes'],[/手|손/,'hand'],[/身体|몸|胸|가슴|背|등/,'body'],
+    [/学校|학교/,'school'],[/书|책/,'book'],[/考试|시험/,'exam'],[/作业|숙제|과제/,'homework'],[/学习|공부|教育|수업/,'study desk'],
+    [/公司|회사|办公室|사무실|职场|직장|业务|업무|会议|회의|同事|동료|就业|취업/,'office work'],
+    [/钱|돈|美元|달러|价格|값|가격|折扣|할인|免费|공짜/,'money'],[/卡|카드/,'credit card'],[/市场|시장|超市|슈퍼마켓|购物|사다|팔다/,'shopping'],
+    [/电话|휴대전화|手机|인터넷|网络|电脑|컴퓨터|화면|搜索|검색/,'technology'],
+    [/家|집|客厅|거실|房|방/,'home'],[/公园|공원|图书馆|도서관|店|가게|문구점|美容院|미용실/,'city place'],[/前|后|旁|里面|外边|方向|쪽|앞|뒤|옆|속|밖/,'direction sign'],
+    [/今天|오늘|明天|내일|昨天|어제|时间|시간|周末|주말|季节|계절|春|봄|夏|여름|秋|가을|冬|겨울/,'calendar'],[/天气|날씨|雨|비|雪|눈|热|덥|冷|춥|风|바람|台风|태풍/,'weather'],
+    [/家人|가족|爸爸|아버지|妈妈|어머니|朋友|친구|孩子|아이|学生|학생|老师|선생님|人|사람/,'people'],
+    [/电影|영화|音乐|음악|歌|노래|运动|운동|旅行|여행|演出|공연|展览|전시|漫画|만화|电视剧|드라마/,'culture'],
+    [/狗|강아지|猫|고양이|老虎|호랑이|鸭|오리|动物|동물/,'animal'],[/花|꽃|树|나무|海|바다|山|산|自然|자연|环境|환경/,'nature'],
+    [/法律|律师|변호사|政策|制度|权利|义务/,'law'],[/媒体|新闻|报道|广告|광고|采访|인터뷰/,'media'],
+    [/高尔夫|골프|篮球|농구|滑冰|스케이트|登山|등산/,'sports'],[/衣|옷|夹克|점퍼|袜|양말|毛衣|스웨터|手套|장갑|裤|바지|领带|넥타이/,'clothes']
+  ];
+  for(const p of pairs){if(p[0].test(t))return p[1];}
+  return raw||imageKeyword(w)||'korean study';
+}
+function flickrSafeTerm(q){
+  let parts=String(q||'korea').toLowerCase().replace(/[^a-z0-9\\u4e00-\\u9fa5\\uac00-\\ud7af]+/g,' ').trim().split(/\\s+/).filter(Boolean);
+  if(parts[0]==='korean'||parts[0]==='korea')parts=parts.slice(1);
+  const first=parts[0]||'korea';
+  const map={student:'school',success:'goal',walking:'street',drinking:'water',reading:'book',writing:'notebook',conversation:'people',study:'school',homework:'notebook',exam:'school',office:'office',transportation:'bus',technology:'phone',smartphone:'phone',internet:'computer',shopping:'shopping',bags:'shopping',store:'store',market:'market',credit:'credit',card:'credit',subway:'subway',airport:'airport',rice:'rice',food:'food',medicine:'medicine',doctor:'doctor',hospital:'hospital',calendar:'calendar',weather:'weather',culture:'concert',animal:'animal',puppy:'dog',sea:'ocean',spring:'flower',autumn:'leaves',green:'nature',newspaper:'media',library:'book',university:'school',daily:'life'};
+  return map[first]||first;
+}
+function flickrUrl(q,lock){return 'https://loremflickr.com/420/260/'+encodeURIComponent(flickrSafeTerm(q))+'?lock='+lock;}
+function flickrWordImage(w){const q=wordVisualKeyword(w);const lock=1000+stableHash((w.level||'')+'|'+(w.id||'')+'|'+w.kr+'|'+q);return flickrUrl(q,lock);}
+function flickrBackupImage(w){const q=imageKeyword(w);const lock=2000+stableHash((w.theme||'')+'|'+(w.kr||'')+'|backup');return flickrUrl(q,lock);}
+function wordImageUrl(w){if(!w)return fallbackImage({theme:'复习'});return flickrWordImage(w);}
 function fallbackImage(w){const label=(w&&w.theme)||'Korean';return 'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#a6ecd8"/><stop offset="1" stop-color="#ff7ab4"/></linearGradient></defs><rect width="600" height="400" fill="url(#g)"/><circle cx="300" cy="145" r="58" fill="rgba(255,255,255,.72)"/><text x="300" y="285" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" font-weight="700" fill="#fff">'+label.replace(/[<>&]/g,'')+'</text></svg>');}
 function visualCaption(w){if(!w)return'';const cn=String(w.cn||'').split(/[，,；;、]/)[0].replace(/[()（）]/g,'').trim();const th=w.theme&&w.theme!=='无主题'?w.theme:'核心词';return (cn||w.kr)+' · '+th;}
 function setDaily(w){daily.kr=w.kr;document.getElementById('dEmoji').textContent=wordIcon(w);document.getElementById('dWord').textContent=w.kr;document.getElementById('dRom').textContent=wordSound(w);document.getElementById('dCn').textContent=w.cn;}
@@ -748,13 +783,14 @@ function renderWordImage(box,w,useIdol){
   if(!w){const img=document.createElement('img');img.className='wordphoto';img.src=fallbackImage({cn:'今天没有到期复习',theme:'复习'});box.appendChild(img);const cap=document.createElement('span');cap.className='piccap';cap.textContent='今天没有到期复习';box.appendChild(cap);return;}
   const img=document.createElement('img');img.className='wordphoto';img.alt=w.theme||'Korean word';img.loading='eager';img.decoding='async';img.fetchPriority='high';
   if(useIdol&&idolPhotos.length){const list=currentPhotos&&currentPhotos().length?currentPhotos():idolPhotos;img.src=list[mi%list.length].src;}else{img.src=wordImageUrl(w);}
-  img.onerror=function(){this.onerror=null;this.src=fallbackImage(w);};
+  img.dataset.backup=useIdol?'':flickrBackupImage(w);img.dataset.final=useIdol?'':pooledThemeImage(w);
+  img.onerror=function(){if(this.dataset.backup&&this.src!==this.dataset.backup){this.src=this.dataset.backup;this.dataset.backup='';return;}if(this.dataset.final&&this.src!==this.dataset.final){this.src=this.dataset.final;this.dataset.final='';return;}this.onerror=null;this.src=fallbackImage(w);};
   box.appendChild(img);box.title='按词义/主题自动匹配图片';
 }
 const imageWarmCache=new Set();let imageWarmDeck='';
 function warmImage(url){if(!url||imageWarmCache.has(url))return;imageWarmCache.add(url);const img=new Image();img.decoding='async';img.src=url;}
-function preloadDeckImages(){if(!curDeck||!curDeck.length||deckType[curDeckName]==='kpop'||imageWarmDeck===curDeckName)return;imageWarmDeck=curDeckName;const urls=[...new Set(curDeck.map(wordImageUrl))];const run=function(){urls.forEach(function(url,i){setTimeout(function(){warmImage(url);},i*25);});};if(window.requestIdleCallback)requestIdleCallback(run,{timeout:800});else setTimeout(run,50);}
-function preloadUpcomingImages(){if(!curDeck||!curDeck.length)return;[1,2,3,4,5].forEach(function(offset){const w=curDeck[mi+offset];if(w&&deckType[curDeckName]!=='kpop')warmImage(wordImageUrl(w));});preloadDeckImages();}
+function preloadDeckImages(){if(!curDeck||!curDeck.length||deckType[curDeckName]==='kpop')return;imageWarmDeck=curDeckName;[1,2,3,4,5,6,7,8].forEach(function(offset){const w=curDeck[mi+offset];if(w)warmImage(wordImageUrl(w));});}
+function preloadUpcomingImages(){if(!curDeck||!curDeck.length)return;if(deckType[curDeckName]!=='kpop')preloadDeckImages();}
 function showCard(){refreshDynamicDecks();curDeck=decks[curDeckName]||curDeck||[];if(mi>=curDeck.length)mi=Math.max(0,curDeck.length-1);const w=curDeck[mi];const meta=wordMeta(w);const levelName=w&&w.level==='基础'?'初级':(w?w.level:'');document.getElementById('flash').classList.remove('flipped');renderWordImage(document.getElementById('fImg'),w,deckType[curDeckName]==='kpop');document.getElementById('fImg2').textContent=w?'의미':'복습';document.getElementById('fCat').textContent=w?([levelName,w.theme].filter(Boolean).join('·')):'今天没有到期卡片';document.getElementById('fKo').textContent=w?w.kr:'오늘은 복습 없음';document.getElementById('fRom').textContent=w?wordSound(w):'';document.getElementById('fCn').textContent=w?w.cn:'今天没有到期复习,可以直接背今日新词。';document.getElementById('fRom2').textContent=w?(meta||'') :'';document.getElementById('memoProg').textContent=curDeck.length?`第 ${mi+1} / ${curDeck.length}`:'0 / 0';document.getElementById('memoBar').style.width=curDeck.length?((mi+1)/curDeck.length*100)+'%':'0%';renderSrsStats();preloadUpcomingImages();}
 function flipCard(){document.getElementById('flash').classList.toggle('flipped');}
 function gotoDeck(name){curDeckName=name;curDeck=decks[name]||[];buildDeckPick();}
