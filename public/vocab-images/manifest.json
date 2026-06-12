@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T03:40:58.271Z",
+  "generatedAt": "2026-06-12T03:57:18.666Z",
   "count": 3011,
   "style": "original cute y2k pixel-girl stage polka-dot memory illustrations",
   "items": [
@@ -217,7 +217,7 @@
       "cn": "感谢",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0084-589.svg",
@@ -233,7 +233,7 @@
       "cn": "增加",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "money_chart"
     },
     {
       "file": "base-pdf___0093-897.svg",
@@ -337,7 +337,7 @@
       "cn": "坐下",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0155-380.svg",
@@ -537,7 +537,7 @@
       "cn": "上升",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0273-677.svg",
@@ -817,7 +817,7 @@
       "cn": "下去",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0472-913.svg",
@@ -1321,7 +1321,7 @@
       "cn": "上(学)，通行",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0732-170.svg",
@@ -1353,7 +1353,7 @@
       "cn": "背，挑，扛",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0747-735.svg",
@@ -1673,7 +1673,7 @@
       "cn": "奉上，敬赠",
       "level": "基础",
       "theme": "基础动词",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0961-711.svg",
@@ -2049,7 +2049,7 @@
       "cn": "继续，一直",
       "level": "基础",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0642-509.svg",
@@ -2177,7 +2177,7 @@
       "cn": "全部，大家",
       "level": "基础",
       "theme": "连接副词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0979-388.svg",
@@ -2193,7 +2193,7 @@
       "cn": "然后；而且",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-v0060-865.svg",
@@ -2201,7 +2201,7 @@
       "cn": "家",
       "level": "基础",
       "theme": "场所方向",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-v0061-96.svg",
@@ -2225,7 +2225,7 @@
       "cn": "前面",
       "level": "基础",
       "theme": "场所方向",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-v0064-861.svg",
@@ -2233,7 +2233,7 @@
       "cn": "后面",
       "level": "基础",
       "theme": "场所方向",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-v0065-635.svg",
@@ -2241,7 +2241,7 @@
       "cn": "旁边",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-v0066-213.svg",
@@ -2265,7 +2265,7 @@
       "cn": "最后",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0034-476.svg",
@@ -2281,7 +2281,7 @@
       "cn": "后辈，学弟(妹)，师",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0128-941.svg",
@@ -2289,7 +2289,7 @@
       "cn": "页",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0149-145.svg",
@@ -2297,7 +2297,7 @@
       "cn": "背，后背",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0157-352.svg",
@@ -2305,7 +2305,7 @@
       "cn": "北边",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0190-447.svg",
@@ -2313,7 +2313,7 @@
       "cn": "外边",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0217-356.svg",
@@ -2321,7 +2321,7 @@
       "cn": "东边",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0304-345.svg",
@@ -2329,7 +2329,7 @@
       "cn": "外婆",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "people_family"
     },
     {
       "file": "base-pdf___0333-2.svg",
@@ -2337,7 +2337,7 @@
       "cn": "后天",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0377-97.svg",
@@ -2345,7 +2345,7 @@
       "cn": "方法",
       "level": "基础",
       "theme": "场所方向",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0387-886.svg",
@@ -2353,7 +2353,7 @@
       "cn": "左边",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0451-553.svg",
@@ -2361,7 +2361,7 @@
       "cn": "以后",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0510-388.svg",
@@ -2369,7 +2369,7 @@
       "cn": "右边",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0623-839.svg",
@@ -2401,7 +2401,7 @@
       "cn": "现在，当前",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0798-134.svg",
@@ -2425,7 +2425,7 @@
       "cn": "前辈，学兄(姐)，学",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0815-491.svg",
@@ -2433,7 +2433,7 @@
       "cn": "(用于“- 지”之后)",
       "level": "基础",
       "theme": "场所方向",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0058-989.svg",
@@ -2441,7 +2441,7 @@
       "cn": "剪刀",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0064-658.svg",
@@ -2473,7 +2473,7 @@
       "cn": "车站",
       "level": "基础",
       "theme": "场所方向",
-      "type": "transport"
+      "type": "transport_station"
     },
     {
       "file": "base-pdf___0221-518.svg",
@@ -2481,7 +2481,7 @@
       "cn": "上面",
       "level": "基础",
       "theme": "场所方向",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0222-139.svg",
@@ -2497,7 +2497,7 @@
       "cn": "氛围",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0261-885.svg",
@@ -2513,7 +2513,7 @@
       "cn": "危险",
       "level": "基础",
       "theme": "场所方向",
-      "type": "emotion"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0340-457.svg",
@@ -2521,7 +2521,7 @@
       "cn": "为了",
       "level": "基础",
       "theme": "场所方向",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0360-128.svg",
@@ -2529,7 +2529,7 @@
       "cn": "位置",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0395-438.svg",
@@ -2537,7 +2537,7 @@
       "cn": "周围",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0421-26.svg",
@@ -2545,7 +2545,7 @@
       "cn": "三明治",
       "level": "基础",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0531-646.svg",
@@ -2553,7 +2553,7 @@
       "cn": "高中",
       "level": "基础",
       "theme": "场所方向",
-      "type": "school"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0573-629.svg",
@@ -2569,7 +2569,7 @@
       "cn": "下面",
       "level": "基础",
       "theme": "场所方向",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0704-234.svg",
@@ -2609,7 +2609,7 @@
       "cn": "谢谢",
       "level": "基础",
       "theme": "问候自我介绍",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "base-v0023-227.svg",
@@ -2681,7 +2681,7 @@
       "cn": "家人；家庭",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-v0028-139.svg",
@@ -2689,7 +2689,7 @@
       "cn": "父母",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "base-v0029-156.svg",
@@ -2697,7 +2697,7 @@
       "cn": "父亲",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "base-v0030-866.svg",
@@ -2705,7 +2705,7 @@
       "cn": "母亲",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "base-v0031-668.svg",
@@ -2729,7 +2729,7 @@
       "cn": "侄子， 侄女",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "base-pdf___0185-25.svg",
@@ -2817,7 +2817,7 @@
       "cn": "叔叔",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "base-pdf___0875-618.svg",
@@ -2825,7 +2825,7 @@
       "cn": "家具，家庭",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0880-335.svg",
@@ -2849,7 +2849,7 @@
       "cn": "侍奉(父母或老人)",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "base-pdf___0009-646.svg",
@@ -2889,7 +2889,7 @@
       "cn": "散步",
       "level": "基础",
       "theme": "人物家庭",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "base-pdf___0945-163.svg",
@@ -2905,7 +2905,7 @@
       "cn": "身体",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-v0034-435.svg",
@@ -2913,7 +2913,7 @@
       "cn": "头；头发",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-v0035-396.svg",
@@ -2921,7 +2921,7 @@
       "cn": "眼睛",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-v0036-852.svg",
@@ -2929,7 +2929,7 @@
       "cn": "手",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-v0037-826.svg",
@@ -2953,7 +2953,7 @@
       "cn": "药",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "base-pdf___0027-314.svg",
@@ -2969,7 +2969,7 @@
       "cn": "选手",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0104-36.svg",
@@ -2977,7 +2977,7 @@
       "cn": "结束，尽头，头",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0160-611.svg",
@@ -2985,7 +2985,7 @@
       "cn": "胸",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0252-174.svg",
@@ -2993,7 +2993,7 @@
       "cn": "手套",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0258-231.svg",
@@ -3001,7 +3001,7 @@
       "cn": "若干，一点",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "base-pdf___0338-307.svg",
@@ -3009,7 +3009,7 @@
       "cn": "眼镜",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0462-25.svg",
@@ -3017,7 +3017,7 @@
       "cn": "手指",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0503-249.svg",
@@ -3025,7 +3025,7 @@
       "cn": "做手术",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0650-92.svg",
@@ -3033,7 +3033,7 @@
       "cn": "手册",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0787-56.svg",
@@ -3049,7 +3049,7 @@
       "cn": "预约",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "base-pdf___0869-838.svg",
@@ -3057,7 +3057,7 @@
       "cn": "牙膏",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "base-pdf___0935-446.svg",
@@ -3065,7 +3065,7 @@
       "cn": "约定",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0010-245.svg",
@@ -3073,7 +3073,7 @@
       "cn": "脚， 足",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0029-845.svg",
@@ -3097,7 +3097,7 @@
       "cn": "鼻涕",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0082-420.svg",
@@ -3137,7 +3137,7 @@
       "cn": "客人",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0392-626.svg",
@@ -3145,7 +3145,7 @@
       "cn": "手绢",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0430-617.svg",
@@ -3153,7 +3153,7 @@
       "cn": "出发",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0509-398.svg",
@@ -3161,7 +3161,7 @@
       "cn": "鞋",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0580-214.svg",
@@ -3169,7 +3169,7 @@
       "cn": "发表",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0596-355.svg",
@@ -3193,7 +3193,7 @@
       "cn": "感冒",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0716-338.svg",
@@ -3201,7 +3201,7 @@
       "cn": "发音",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0748-717.svg",
@@ -3217,7 +3217,7 @@
       "cn": "治疗",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "base-pdf___0780-98.svg",
@@ -3233,7 +3233,7 @@
       "cn": "大衣",
       "level": "基础",
       "theme": "身体健康",
-      "type": "health"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0861-250.svg",
@@ -3313,7 +3313,7 @@
       "cn": "埃及",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0080-425.svg",
@@ -3337,7 +3337,7 @@
       "cn": "广播",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0249-773.svg",
@@ -3369,7 +3369,7 @@
       "cn": "地方",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0389-11.svg",
@@ -3385,7 +3385,7 @@
       "cn": "中餐馆",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0604-896.svg",
@@ -3401,7 +3401,7 @@
       "cn": "租住的房子，寄宿处",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0672-692.svg",
@@ -3409,7 +3409,7 @@
       "cn": "房间",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0792-891.svg",
@@ -3417,7 +3417,7 @@
       "cn": "放寒 / 暑假",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0900-533.svg",
@@ -3425,7 +3425,7 @@
       "cn": "刚刚，马上",
       "level": "基础",
       "theme": "日常起居",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "base-v0046-93.svg",
@@ -3433,7 +3433,7 @@
       "cn": "饭",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_rice"
     },
     {
       "file": "base-v0047-892.svg",
@@ -3441,7 +3441,7 @@
       "cn": "水",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-v0048-277.svg",
@@ -3449,7 +3449,7 @@
       "cn": "泡菜",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_kimchi"
     },
     {
       "file": "base-v0049-405.svg",
@@ -3465,7 +3465,7 @@
       "cn": "水果",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_fruit"
     },
     {
       "file": "base-v0051-651.svg",
@@ -3481,7 +3481,7 @@
       "cn": "喝",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-v0053-124.svg",
@@ -3513,7 +3513,7 @@
       "cn": "红茶",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0130-732.svg",
@@ -3521,7 +3521,7 @@
       "cn": "( 事物的 ) 里面",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0165-968.svg",
@@ -3537,7 +3537,7 @@
       "cn": "炸酱面",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_noodle"
     },
     {
       "file": "base-pdf___0311-410.svg",
@@ -3545,7 +3545,7 @@
       "cn": "对面",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0397-473.svg",
@@ -3553,7 +3553,7 @@
       "cn": "下面",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0406-680.svg",
@@ -3561,7 +3561,7 @@
       "cn": "洗发水",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0481-259.svg",
@@ -3601,7 +3601,7 @@
       "cn": "面条",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_noodle"
     },
     {
       "file": "base-pdf___0648-48.svg",
@@ -3633,7 +3633,7 @@
       "cn": "当然",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0699-276.svg",
@@ -3657,7 +3657,7 @@
       "cn": "对面",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0797-23.svg",
@@ -3665,7 +3665,7 @@
       "cn": "汽水",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0896-669.svg",
@@ -3681,7 +3681,7 @@
       "cn": "冷面",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_noodle"
     },
     {
       "file": "base-pdf___0930-467.svg",
@@ -3697,7 +3697,7 @@
       "cn": "方便面",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_noodle"
     },
     {
       "file": "base-pdf___0958-112.svg",
@@ -3705,7 +3705,7 @@
       "cn": "(水果等) 垂挂，悬",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0964-853.svg",
@@ -3713,7 +3713,7 @@
       "cn": "咖啡馆",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0977-887.svg",
@@ -3721,7 +3721,7 @@
       "cn": "泡菜汤",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_kimchi"
     },
     {
       "file": "base-pdf___0989-867.svg",
@@ -3753,7 +3753,7 @@
       "cn": "动物",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0061-304.svg",
@@ -3785,7 +3785,7 @@
       "cn": "送礼，馈赠",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0354-609.svg",
@@ -3793,7 +3793,7 @@
       "cn": "绿茶",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0408-695.svg",
@@ -3809,7 +3809,7 @@
       "cn": "询问",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0520-952.svg",
@@ -3817,7 +3817,7 @@
       "cn": "紫菜包饭",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_rice"
     },
     {
       "file": "base-pdf___0524-932.svg",
@@ -3841,7 +3841,7 @@
       "cn": "博物馆",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0656-595.svg",
@@ -3849,7 +3849,7 @@
       "cn": "建筑物",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0683-879.svg",
@@ -3881,7 +3881,7 @@
       "cn": "炒饭",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_rice"
     },
     {
       "file": "base-pdf___0877-104.svg",
@@ -3889,7 +3889,7 @@
       "cn": "咖啡厅",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0949-583.svg",
@@ -3897,7 +3897,7 @@
       "cn": "事物",
       "level": "基础",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "base-v0054-968.svg",
@@ -3905,7 +3905,7 @@
       "cn": "今天",
       "level": "基础",
       "theme": "时间日期",
-      "type": "time"
+      "type": "time_calendar"
     },
     {
       "file": "base-v0055-952.svg",
@@ -3913,7 +3913,7 @@
       "cn": "明天",
       "level": "基础",
       "theme": "时间日期",
-      "type": "time"
+      "type": "time_calendar"
     },
     {
       "file": "base-v0056-955.svg",
@@ -3921,7 +3921,7 @@
       "cn": "昨天",
       "level": "基础",
       "theme": "时间日期",
-      "type": "time"
+      "type": "time_calendar"
     },
     {
       "file": "base-v0057-679.svg",
@@ -3945,7 +3945,7 @@
       "cn": "周末",
       "level": "基础",
       "theme": "时间日期",
-      "type": "time"
+      "type": "time_calendar"
     },
     {
       "file": "base-pdf___0004-754.svg",
@@ -3961,7 +3961,7 @@
       "cn": "以前，古时候",
       "level": "基础",
       "theme": "时间日期",
-      "type": "time"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0113-604.svg",
@@ -4025,7 +4025,7 @@
       "cn": "日期",
       "level": "基础",
       "theme": "时间日期",
-      "type": "time"
+      "type": "time_calendar"
     },
     {
       "file": "base-pdf___0705-424.svg",
@@ -4049,7 +4049,7 @@
       "cn": "金浦机场",
       "level": "基础",
       "theme": "时间日期",
-      "type": "transport"
+      "type": "transport_plane"
     },
     {
       "file": "base-v0068-17.svg",
@@ -4057,7 +4057,7 @@
       "cn": "公交车",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_bus"
     },
     {
       "file": "base-v0069-466.svg",
@@ -4065,7 +4065,7 @@
       "cn": "地铁",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_subway"
     },
     {
       "file": "base-v0070-384.svg",
@@ -4073,7 +4073,7 @@
       "cn": "出租车",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_taxi"
     },
     {
       "file": "base-v0071-162.svg",
@@ -4081,7 +4081,7 @@
       "cn": "机场",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_plane"
     },
     {
       "file": "base-v0072-163.svg",
@@ -4105,7 +4105,7 @@
       "cn": "下车",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0044-982.svg",
@@ -4121,7 +4121,7 @@
       "cn": "车站",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_station"
     },
     {
       "file": "base-pdf___0234-840.svg",
@@ -4193,7 +4193,7 @@
       "cn": "换乘",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_station"
     },
     {
       "file": "base-pdf___0131-439.svg",
@@ -4209,7 +4209,7 @@
       "cn": "海外旅行",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "nature_sea"
     },
     {
       "file": "base-pdf___0664-266.svg",
@@ -4217,7 +4217,7 @@
       "cn": "高速大巴",
       "level": "基础",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0709-122.svg",
@@ -4241,7 +4241,7 @@
       "cn": "价格",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "base-v0077-136.svg",
@@ -4249,7 +4249,7 @@
       "cn": "卡",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_card"
     },
     {
       "file": "base-v0078-161.svg",
@@ -4257,7 +4257,7 @@
       "cn": "买",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "base-v0079-4.svg",
@@ -4265,7 +4265,7 @@
       "cn": "卖",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "base-v0080-919.svg",
@@ -4273,7 +4273,7 @@
       "cn": "贵",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "weather_rain"
     },
     {
       "file": "base-v0081-626.svg",
@@ -4297,7 +4297,7 @@
       "cn": "折扣",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "base-pdf___0312-33.svg",
@@ -4305,7 +4305,7 @@
       "cn": "不花钱的，免费的",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "nature_flower"
     },
     {
       "file": "base-pdf___0962-110.svg",
@@ -4321,7 +4321,7 @@
       "cn": "南大门市场",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "base-pdf___0926-553.svg",
@@ -4329,7 +4329,7 @@
       "cn": "价格",
       "level": "基础",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "base-v0082-805.svg",
@@ -4345,7 +4345,7 @@
       "cn": "书",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "base-v0084-848.svg",
@@ -4361,7 +4361,7 @@
       "cn": "考试",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_exam"
     },
     {
       "file": "base-v0086-470.svg",
@@ -4393,7 +4393,7 @@
       "cn": "资料",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "base-pdf___0088-390.svg",
@@ -4409,7 +4409,7 @@
       "cn": "小学",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0283-991.svg",
@@ -4425,7 +4425,7 @@
       "cn": "资料， 材料",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "base-pdf___0418-762.svg",
@@ -4441,7 +4441,7 @@
       "cn": "读书",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "base-pdf___0740-239.svg",
@@ -4457,7 +4457,7 @@
       "cn": "教科书",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "base-pdf___0890-596.svg",
@@ -4481,7 +4481,7 @@
       "cn": "笔记本",
       "level": "基础",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "base-pdf___0063-359.svg",
@@ -4529,7 +4529,7 @@
       "cn": "雨",
       "level": "基础",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-v0091-930.svg",
@@ -4537,7 +4537,7 @@
       "cn": "雪",
       "level": "基础",
       "theme": "天气季节",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-v0092-713.svg",
@@ -4545,7 +4545,7 @@
       "cn": "热",
       "level": "基础",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "base-v0093-613.svg",
@@ -4553,7 +4553,7 @@
       "cn": "冷",
       "level": "基础",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "base-v0094-973.svg",
@@ -4577,7 +4577,7 @@
       "cn": "相似",
       "level": "基础",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0087-641.svg",
@@ -4601,7 +4601,7 @@
       "cn": "汤锅",
       "level": "基础",
       "theme": "天气季节",
-      "type": "food"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0348-367.svg",
@@ -4609,7 +4609,7 @@
       "cn": "电视",
       "level": "基础",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0362-830.svg",
@@ -4617,7 +4617,7 @@
       "cn": "飞机",
       "level": "基础",
       "theme": "天气季节",
-      "type": "transport"
+      "type": "transport_plane"
     },
     {
       "file": "base-pdf___0535-523.svg",
@@ -4625,7 +4625,7 @@
       "cn": "视频",
       "level": "基础",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0692-978.svg",
@@ -4633,7 +4633,7 @@
       "cn": "排骨汤",
       "level": "基础",
       "theme": "天气季节",
-      "type": "food"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0834-376.svg",
@@ -4665,7 +4665,7 @@
       "cn": "服务",
       "level": "基础",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0946-765.svg",
@@ -4745,7 +4745,7 @@
       "cn": "继续",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-v0105-678.svg",
@@ -4793,7 +4793,7 @@
       "cn": "增加",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "money_chart"
     },
     {
       "file": "topik4-v0113-182.svg",
@@ -4801,7 +4801,7 @@
       "cn": "减少",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "money_chart"
     },
     {
       "file": "topik4-v0114-324.svg",
@@ -5129,7 +5129,7 @@
       "cn": "回家",
       "level": "四级",
       "theme": "动作表达",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1085-166.svg",
@@ -5209,7 +5209,7 @@
       "cn": "下落， 下降",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1118-755.svg",
@@ -5305,7 +5305,7 @@
       "cn": "减少，缩小",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "money_chart"
     },
     {
       "file": "topik4-pdf___1155-898.svg",
@@ -5449,7 +5449,7 @@
       "cn": "体会",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1213-808.svg",
@@ -5513,7 +5513,7 @@
       "cn": "上映",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1250-911.svg",
@@ -5561,7 +5561,7 @@
       "cn": "登场，出现",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1289-712.svg",
@@ -5633,7 +5633,7 @@
       "cn": "增加",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "money_chart"
     },
     {
       "file": "topik4-pdf___1303-814.svg",
@@ -5977,7 +5977,7 @@
       "cn": "违背",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1470-788.svg",
@@ -6193,7 +6193,7 @@
       "cn": "下决心",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1570-448.svg",
@@ -6257,7 +6257,7 @@
       "cn": "交易，买卖",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "money_shop"
     },
     {
       "file": "topik4-pdf___1598-480.svg",
@@ -6457,7 +6457,7 @@
       "cn": "伤心，闹心",
       "level": "四级",
       "theme": "动作表达",
-      "type": "emotion"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1709-651.svg",
@@ -6585,7 +6585,7 @@
       "cn": "浮，织(毛衣)，(太阳)",
       "level": "四级",
       "theme": "动作表达",
-      "type": "fashion"
+      "type": "fashion_clothes"
     },
     {
       "file": "topik4-pdf___1763-242.svg",
@@ -6657,7 +6657,7 @@
       "cn": "束缚， 限制， 拘留",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1807-433.svg",
@@ -6729,7 +6729,7 @@
       "cn": "提高， 上调",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1833-673.svg",
@@ -6825,7 +6825,7 @@
       "cn": "浮上来，升起来，想",
       "level": "四级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1939-551.svg",
@@ -6937,7 +6937,7 @@
       "cn": "准备",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1114-6.svg",
@@ -6945,7 +6945,7 @@
       "cn": "加热",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik4-pdf___1193-900.svg",
@@ -6961,7 +6961,7 @@
       "cn": "暴雨",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1380-167.svg",
@@ -6969,7 +6969,7 @@
       "cn": "热带",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik4-pdf___1436-439.svg",
@@ -6977,7 +6977,7 @@
       "cn": "绸缎，丝绸",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1438-904.svg",
@@ -6993,7 +6993,7 @@
       "cn": "冷淡， 冷漠",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik4-pdf___1465-744.svg",
@@ -7001,7 +7001,7 @@
       "cn": "被冷落，被排斥，被",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1550-487.svg",
@@ -7009,7 +7009,7 @@
       "cn": "浪费",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1651-430.svg",
@@ -7025,7 +7025,7 @@
       "cn": "沉着， 冷静 153 ㅋ",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik4-pdf___1672-510.svg",
@@ -7033,7 +7033,7 @@
       "cn": "秘诀",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1683-628.svg",
@@ -7041,7 +7041,7 @@
       "cn": "炎热",
       "level": "四级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik4-pdf___1689-180.svg",
@@ -7049,7 +7049,7 @@
       "cn": "冷清",
       "level": "四级",
       "theme": "时间天气",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik4-v0111-441.svg",
@@ -7057,7 +7057,7 @@
       "cn": "发生",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-v0198-941.svg",
@@ -7073,7 +7073,7 @@
       "cn": "症状",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-v0200-847.svg",
@@ -7081,7 +7081,7 @@
       "cn": "治疗",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-v0201-588.svg",
@@ -7089,7 +7089,7 @@
       "cn": "诊疗",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-v0202-833.svg",
@@ -7113,7 +7113,7 @@
       "cn": "预防",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1065-676.svg",
@@ -7121,7 +7121,7 @@
       "cn": "智能手机",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1090-10.svg",
@@ -7129,7 +7129,7 @@
       "cn": "自我开发",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1097-505.svg",
@@ -7137,7 +7137,7 @@
       "cn": "头盔， 防护帽",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1099-226.svg",
@@ -7145,7 +7145,7 @@
       "cn": "手镯",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1225-349.svg",
@@ -7153,7 +7153,7 @@
       "cn": "眉开眼笑",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1327-740.svg",
@@ -7161,7 +7161,7 @@
       "cn": "头疼",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1491-898.svg",
@@ -7169,7 +7169,7 @@
       "cn": "谦虚",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1498-390.svg",
@@ -7177,7 +7177,7 @@
       "cn": "发明家",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1617-955.svg",
@@ -7185,7 +7185,7 @@
       "cn": "头脑，脑子",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1652-135.svg",
@@ -7193,7 +7193,7 @@
       "cn": "拔(头发)，抽(血)",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1712-395.svg",
@@ -7209,7 +7209,7 @@
       "cn": "闭(眼)",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1784-735.svg",
@@ -7217,7 +7217,7 @@
       "cn": "手段",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1843-456.svg",
@@ -7225,7 +7225,7 @@
       "cn": "二手货，旧货",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1871-693.svg",
@@ -7241,7 +7241,7 @@
       "cn": "手续费",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1891-313.svg",
@@ -7249,7 +7249,7 @@
       "cn": "药品",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-pdf___1944-611.svg",
@@ -7257,7 +7257,7 @@
       "cn": "眼眶， 眼圈",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1953-137.svg",
@@ -7265,7 +7265,7 @@
       "cn": "农药",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-pdf___1977-92.svg",
@@ -7273,7 +7273,7 @@
       "cn": "药丸",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-pdf___1038-9.svg",
@@ -7289,7 +7289,7 @@
       "cn": "发行",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1129-405.svg",
@@ -7313,7 +7313,7 @@
       "cn": "手艺，厨艺",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1174-390.svg",
@@ -7345,7 +7345,7 @@
       "cn": "发挥",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1312-228.svg",
@@ -7361,7 +7361,7 @@
       "cn": "发行",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1403-791.svg",
@@ -7385,7 +7385,7 @@
       "cn": "损害，损失",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1577-524.svg",
@@ -7401,7 +7401,7 @@
       "cn": "脚掌，脚底",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1626-898.svg",
@@ -7417,7 +7417,7 @@
       "cn": "眼珠， 瞳孔",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1688-200.svg",
@@ -7425,7 +7425,7 @@
       "cn": "把手",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1769-474.svg",
@@ -7457,7 +7457,7 @@
       "cn": "左撇子",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1860-790.svg",
@@ -7481,7 +7481,7 @@
       "cn": "选拔",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1989-120.svg",
@@ -7497,7 +7497,7 @@
       "cn": "水坑，水洼",
       "level": "四级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "food_drink"
     },
     {
       "file": "topik4-v0122-366.svg",
@@ -7513,7 +7513,7 @@
       "cn": "展望，前景",
       "level": "四级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1195-986.svg",
@@ -7545,7 +7545,7 @@
       "cn": "胃",
       "level": "四级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1540-848.svg",
@@ -7569,7 +7569,7 @@
       "cn": "两边",
       "level": "四级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1571-425.svg",
@@ -7601,7 +7601,7 @@
       "cn": "诗集",
       "level": "四级",
       "theme": "场所方向",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1731-831.svg",
@@ -7633,7 +7633,7 @@
       "cn": "蜂巢",
       "level": "四级",
       "theme": "场所方向",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1951-732.svg",
@@ -7641,7 +7641,7 @@
       "cn": "后半段(主要用于形容年龄)",
       "level": "四级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1027-111.svg",
@@ -7649,7 +7649,7 @@
       "cn": "下面",
       "level": "四级",
       "theme": "场所方向",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1055-172.svg",
@@ -7657,7 +7657,7 @@
       "cn": "慰劳，慰问",
       "level": "四级",
       "theme": "场所方向",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1165-392.svg",
@@ -7665,7 +7665,7 @@
       "cn": "地位",
       "level": "四级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1260-197.svg",
@@ -7673,7 +7673,7 @@
       "cn": "酷热， 炎热",
       "level": "四级",
       "theme": "场所方向",
-      "type": "weather"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1460-842.svg",
@@ -7681,7 +7681,7 @@
       "cn": "提前",
       "level": "四级",
       "theme": "场所方向",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1561-812.svg",
@@ -7697,7 +7697,7 @@
       "cn": "为主",
       "level": "四级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-v0126-845.svg",
@@ -7809,7 +7809,7 @@
       "cn": "发表；报告",
       "level": "四级",
       "theme": "学校学习",
-      "type": "school"
+      "type": "health_body"
     },
     {
       "file": "topik4-v0137-731.svg",
@@ -7825,7 +7825,7 @@
       "cn": "实力；水平",
       "level": "四级",
       "theme": "学校学习",
-      "type": "school"
+      "type": "food_drink"
     },
     {
       "file": "topik4-v0139-443.svg",
@@ -7841,7 +7841,7 @@
       "cn": "比较",
       "level": "四级",
       "theme": "学校学习",
-      "type": "school"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-v0141-346.svg",
@@ -7857,7 +7857,7 @@
       "cn": "责任",
       "level": "四级",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik4-pdf___1529-849.svg",
@@ -7873,7 +7873,7 @@
       "cn": "书籍",
       "level": "四级",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik4-pdf___1624-315.svg",
@@ -7881,7 +7881,7 @@
       "cn": "申请书",
       "level": "四级",
       "theme": "学校学习",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik4-v0142-419.svg",
@@ -7937,7 +7937,7 @@
       "cn": "工作；上班",
       "level": "四级",
       "theme": "工作职业",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik4-v0149-140.svg",
@@ -7969,7 +7969,7 @@
       "cn": "上班族",
       "level": "四级",
       "theme": "工作职业",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1545-822.svg",
@@ -8025,7 +8025,7 @@
       "cn": "车站",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_station"
     },
     {
       "file": "topik4-v0153-302.svg",
@@ -8033,7 +8033,7 @@
       "cn": "换乘",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_station"
     },
     {
       "file": "topik4-v0154-185.svg",
@@ -8057,7 +8057,7 @@
       "cn": "出发",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1093-943.svg",
@@ -8065,7 +8065,7 @@
       "cn": "登山路",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1098-146.svg",
@@ -8073,7 +8073,7 @@
       "cn": "出路，前途",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1161-260.svg",
@@ -8097,7 +8097,7 @@
       "cn": "雨中的路",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1534-564.svg",
@@ -8113,7 +8113,7 @@
       "cn": "路灯",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1815-220.svg",
@@ -8121,7 +8121,7 @@
       "cn": "货车，卡车",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "money_card"
     },
     {
       "file": "topik4-pdf___1356-131.svg",
@@ -8137,7 +8137,7 @@
       "cn": "航空公司",
       "level": "四级",
       "theme": "交通出行",
-      "type": "transport"
+      "type": "transport_plane"
     },
     {
       "file": "topik4-v0157-637.svg",
@@ -8145,7 +8145,7 @@
       "cn": "经济",
       "level": "四级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik4-v0158-686.svg",
@@ -8153,7 +8153,7 @@
       "cn": "消费",
       "level": "四级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-v0159-553.svg",
@@ -8161,7 +8161,7 @@
       "cn": "价格",
       "level": "四级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "topik4-v0160-771.svg",
@@ -8169,7 +8169,7 @@
       "cn": "折扣",
       "level": "四级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "topik4-v0161-955.svg",
@@ -8177,7 +8177,7 @@
       "cn": "预约",
       "level": "四级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-v0162-133.svg",
@@ -8193,7 +8193,7 @@
       "cn": "节约",
       "level": "四级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-pdf___1667-810.svg",
@@ -8209,7 +8209,7 @@
       "cn": "互联网",
       "level": "四级",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "topik4-v0165-390.svg",
@@ -8217,7 +8217,7 @@
       "cn": "手机",
       "level": "四级",
       "theme": "科技通讯",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik4-v0166-26.svg",
@@ -8225,7 +8225,7 @@
       "cn": "信息",
       "level": "四级",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "topik4-v0167-745.svg",
@@ -8233,7 +8233,7 @@
       "cn": "画面；屏幕",
       "level": "四级",
       "theme": "科技通讯",
-      "type": "food"
+      "type": "tech_computer"
     },
     {
       "file": "topik4-v0168-937.svg",
@@ -8241,7 +8241,7 @@
       "cn": "搜索",
       "level": "四级",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "topik4-v0169-449.svg",
@@ -8257,7 +8257,7 @@
       "cn": "联系",
       "level": "四级",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_phone"
     },
     {
       "file": "topik4-pdf___1408-123.svg",
@@ -8265,7 +8265,7 @@
       "cn": "笔记本电脑",
       "level": "四级",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "topik4-pdf___1893-436.svg",
@@ -8505,7 +8505,7 @@
       "cn": "减少",
       "level": "四级",
       "theme": "环境能源",
-      "type": "nature"
+      "type": "money_chart"
     },
     {
       "file": "topik4-v0190-259.svg",
@@ -8529,7 +8529,7 @@
       "cn": "上升",
       "level": "四级",
       "theme": "环境能源",
-      "type": "nature"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1631-673.svg",
@@ -8545,7 +8545,7 @@
       "cn": "演出",
       "level": "四级",
       "theme": "文化艺术",
-      "type": "stage"
+      "type": "stage_show"
     },
     {
       "file": "topik4-v0192-195.svg",
@@ -8577,7 +8577,7 @@
       "cn": "欣赏",
       "level": "四级",
       "theme": "文化艺术",
-      "type": "stage"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-v0196-388.svg",
@@ -8761,7 +8761,7 @@
       "cn": "违背，抗拒",
       "level": "六级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2034-62.svg",
@@ -8905,7 +8905,7 @@
       "cn": "被感染",
       "level": "六级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2090-720.svg",
@@ -8945,7 +8945,7 @@
       "cn": "下降，降低",
       "level": "六级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2107-34.svg",
@@ -9305,7 +9305,7 @@
       "cn": "节俭，削减",
       "level": "六级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2307-466.svg",
@@ -9585,7 +9585,7 @@
       "cn": "感受",
       "level": "六级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2490-745.svg",
@@ -9617,7 +9617,7 @@
       "cn": "迅速，快速",
       "level": "六级",
       "theme": "动作表达",
-      "type": "emotion"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2513-414.svg",
@@ -9665,7 +9665,7 @@
       "cn": "监视",
       "level": "六级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2547-466.svg",
@@ -9737,7 +9737,7 @@
       "cn": "不理睬",
       "level": "六级",
       "theme": "动作表达",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2580-22.svg",
@@ -9761,7 +9761,7 @@
       "cn": "下功夫",
       "level": "六级",
       "theme": "动作表达",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2602-940.svg",
@@ -9905,7 +9905,7 @@
       "cn": "相同",
       "level": "六级",
       "theme": "动作表达",
-      "type": "emotion"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2680-70.svg",
@@ -10281,7 +10281,7 @@
       "cn": "感知，察觉",
       "level": "六级",
       "theme": "动作表达",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2845-796.svg",
@@ -10321,7 +10321,7 @@
       "cn": "勇敢，大胆",
       "level": "六级",
       "theme": "动作表达",
-      "type": "emotion"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2869-447.svg",
@@ -10777,7 +10777,7 @@
       "cn": "残留物",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2061-567.svg",
@@ -10793,7 +10793,7 @@
       "cn": "哪能， 恐怕……不会， 后面接否定",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2160-416.svg",
@@ -10825,7 +10825,7 @@
       "cn": "并不怎么(后面接否定)",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2399-40.svg",
@@ -10841,7 +10841,7 @@
       "cn": "染料",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2428-975.svg",
@@ -10849,7 +10849,7 @@
       "cn": "水蒸气",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2476-460.svg",
@@ -10857,7 +10857,7 @@
       "cn": "抗生素",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2493-582.svg",
@@ -10865,7 +10865,7 @@
       "cn": "一个接一个",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2517-587.svg",
@@ -10881,7 +10881,7 @@
       "cn": "废弃物，垃圾",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2652-523.svg",
@@ -10889,7 +10889,7 @@
       "cn": "汞，水银",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2697-79.svg",
@@ -10913,7 +10913,7 @@
       "cn": "自来水",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2867-518.svg",
@@ -10921,7 +10921,7 @@
       "cn": "美食店",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2114-793.svg",
@@ -10929,7 +10929,7 @@
       "cn": "犹犹豫豫，吞吞吐吐",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2195-628.svg",
@@ -10993,7 +10993,7 @@
       "cn": "二手车",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2415-589.svg",
@@ -11001,7 +11001,7 @@
       "cn": "程序，手续，步骤",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2449-898.svg",
@@ -11017,7 +11017,7 @@
       "cn": "排泄物",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2515-529.svg",
@@ -11025,7 +11025,7 @@
       "cn": "野生动物",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2519-39.svg",
@@ -11033,7 +11033,7 @@
       "cn": "微生物",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2575-838.svg",
@@ -11049,7 +11049,7 @@
       "cn": "异物",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2619-300.svg",
@@ -11057,7 +11057,7 @@
       "cn": "冷静，沉着，文静",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik6-pdf___2682-905.svg",
@@ -11065,7 +11065,7 @@
       "cn": "有机物",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2718-458.svg",
@@ -11081,7 +11081,7 @@
       "cn": "宠物",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2857-82.svg",
@@ -11089,7 +11089,7 @@
       "cn": "甜甜圈",
       "level": "六级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_cake"
     },
     {
       "file": "topik6-v0210-434.svg",
@@ -11097,7 +11097,7 @@
       "cn": "人为",
       "level": "六级",
       "theme": "场所方向",
-      "type": "people"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2030-609.svg",
@@ -11121,7 +11121,7 @@
       "cn": "老后生活， 养老",
       "level": "六级",
       "theme": "场所方向",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2185-297.svg",
@@ -11145,7 +11145,7 @@
       "cn": "(按照) 先后顺序",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2455-387.svg",
@@ -11161,7 +11161,7 @@
       "cn": "后盾",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2534-793.svg",
@@ -11177,7 +11177,7 @@
       "cn": "萎缩，拘束",
       "level": "六级",
       "theme": "场所方向",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2591-214.svg",
@@ -11185,7 +11185,7 @@
       "cn": "权威人士",
       "level": "六级",
       "theme": "场所方向",
-      "type": "people"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2625-923.svg",
@@ -11193,7 +11193,7 @@
       "cn": "后脖颈",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2644-892.svg",
@@ -11225,7 +11225,7 @@
       "cn": "伪装",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2835-628.svg",
@@ -11249,7 +11249,7 @@
       "cn": "之后",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2983-427.svg",
@@ -11257,7 +11257,7 @@
       "cn": "(鞋后) 跟",
       "level": "六级",
       "theme": "场所方向",
-      "type": "fashion"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2032-485.svg",
@@ -11265,7 +11265,7 @@
       "cn": "委托",
       "level": "六级",
       "theme": "场所方向",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2200-518.svg",
@@ -11289,7 +11289,7 @@
       "cn": "危在旦夕",
       "level": "六级",
       "theme": "场所方向",
-      "type": "emotion"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2511-172.svg",
@@ -11297,7 +11297,7 @@
       "cn": "危重，病重",
       "level": "六级",
       "theme": "场所方向",
-      "type": "health"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2698-145.svg",
@@ -11305,7 +11305,7 @@
       "cn": "雄姿",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2748-347.svg",
@@ -11313,7 +11313,7 @@
       "cn": "扭，拧",
       "level": "六级",
       "theme": "场所方向",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2756-100.svg",
@@ -11321,7 +11321,7 @@
       "cn": "( 事情的 ) 经过，原委",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2977-234.svg",
@@ -11337,7 +11337,7 @@
       "cn": "爆发力",
       "level": "六级",
       "theme": "场所方向",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik6-v0221-11.svg",
@@ -11345,7 +11345,7 @@
       "cn": "政策",
       "level": "六级",
       "theme": "政治法律",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik6-v0222-957.svg",
@@ -11489,7 +11489,7 @@
       "cn": "持续",
       "level": "六级",
       "theme": "环境能源",
-      "type": "nature"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2124-924.svg",
@@ -11505,7 +11505,7 @@
       "cn": "中产阶层",
       "level": "六级",
       "theme": "环境能源",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik6-pdf___2224-200.svg",
@@ -11513,7 +11513,7 @@
       "cn": "图案，花纹",
       "level": "六级",
       "theme": "环境能源",
-      "type": "nature"
+      "type": "nature_flower"
     },
     {
       "file": "topik6-pdf___2351-522.svg",
@@ -11521,7 +11521,7 @@
       "cn": "山顶，顶峰，首脑",
       "level": "六级",
       "theme": "环境能源",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik6-pdf___2362-553.svg",
@@ -11545,7 +11545,7 @@
       "cn": "二氧化碳",
       "level": "六级",
       "theme": "环境能源",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik6-v0235-611.svg",
@@ -11561,7 +11561,7 @@
       "cn": "论文",
       "level": "六级",
       "theme": "教育科研",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik6-v0237-93.svg",
@@ -11569,7 +11569,7 @@
       "cn": "资料",
       "level": "六级",
       "theme": "教育科研",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik6-v0238-549.svg",
@@ -11609,7 +11609,7 @@
       "cn": "建议书，计划书",
       "level": "六级",
       "theme": "教育科研",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik6-pdf___2662-262.svg",
@@ -11617,7 +11617,7 @@
       "cn": "负罪感",
       "level": "六级",
       "theme": "教育科研",
-      "type": "school"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2907-38.svg",
@@ -11633,7 +11633,7 @@
       "cn": "册子，书",
       "level": "六级",
       "theme": "教育科研",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik6-v0242-374.svg",
@@ -11689,7 +11689,7 @@
       "cn": "批判",
       "level": "六级",
       "theme": "媒体舆论",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-v0249-515.svg",
@@ -11697,7 +11697,7 @@
       "cn": "金融",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-v0250-874.svg",
@@ -11705,7 +11705,7 @@
       "cn": "投资",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-v0251-864.svg",
@@ -11713,7 +11713,7 @@
       "cn": "收益",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-v0252-351.svg",
@@ -11721,7 +11721,7 @@
       "cn": "费用",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-v0253-476.svg",
@@ -11729,7 +11729,7 @@
       "cn": "市场",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "topik6-v0254-69.svg",
@@ -11737,7 +11737,7 @@
       "cn": "增加",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-v0255-182.svg",
@@ -11745,7 +11745,7 @@
       "cn": "减少",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-pdf___2073-166.svg",
@@ -11753,7 +11753,7 @@
       "cn": "产业革命， 工业革命",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "nature_mountain"
     },
     {
       "file": "topik6-pdf___2571-804.svg",
@@ -11761,7 +11761,7 @@
       "cn": "发达国家",
       "level": "六级",
       "theme": "经济消费",
-      "type": "money"
+      "type": "home_room"
     },
     {
       "file": "topik6-v0256-167.svg",
@@ -11921,7 +11921,7 @@
       "cn": "飞跃",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik6-pdf___2036-611.svg",
@@ -11929,7 +11929,7 @@
       "cn": "胸",
       "level": "六级",
       "theme": "医学生命",
-      "type": "people"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2078-820.svg",
@@ -11937,7 +11937,7 @@
       "cn": "自发的，主动的",
       "level": "六级",
       "theme": "医学生命",
-      "type": "people"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2144-759.svg",
@@ -11945,7 +11945,7 @@
       "cn": "额头",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2201-34.svg",
@@ -11953,7 +11953,7 @@
       "cn": "承诺",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik6-pdf___2226-32.svg",
@@ -11961,7 +11961,7 @@
       "cn": "灵感，老头儿",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2257-715.svg",
@@ -11969,7 +11969,7 @@
       "cn": "棘手， 苛刻",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2298-435.svg",
@@ -11977,7 +11977,7 @@
       "cn": "眼光",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2303-122.svg",
@@ -11985,7 +11985,7 @@
       "cn": "并行，齐头并进",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2360-618.svg",
@@ -11993,7 +11993,7 @@
       "cn": "违约金",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2374-912.svg",
@@ -12001,7 +12001,7 @@
       "cn": "苗头",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2376-251.svg",
@@ -12009,7 +12009,7 @@
       "cn": "活跃",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik6-pdf___2383-624.svg",
@@ -12017,7 +12017,7 @@
       "cn": "绊脚石",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2550-863.svg",
@@ -12025,7 +12025,7 @@
       "cn": "弱不禁风，体弱多病",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik6-pdf___2558-582.svg",
@@ -12033,7 +12033,7 @@
       "cn": "镜头，透镜",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2559-865.svg",
@@ -12041,7 +12041,7 @@
       "cn": "块头，规模",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2572-486.svg",
@@ -12049,7 +12049,7 @@
       "cn": "老弱病残者",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik6-pdf___2597-166.svg",
@@ -12065,7 +12065,7 @@
       "cn": "头绪",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2663-563.svg",
@@ -12073,7 +12073,7 @@
       "cn": "视角，眼光",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2681-355.svg",
@@ -12081,7 +12081,7 @@
       "cn": "发酵",
       "level": "六级",
       "theme": "医学生命",
-      "type": "people"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2685-714.svg",
@@ -12089,7 +12089,7 @@
       "cn": "眼科",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2690-876.svg",
@@ -12097,7 +12097,7 @@
       "cn": "枕头",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2904-731.svg",
@@ -12105,7 +12105,7 @@
       "cn": "瑕疵，毛病，缺点",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___3000-794.svg",
@@ -12113,7 +12113,7 @@
       "cn": "( 思想上 ) 健康， 健全",
       "level": "六级",
       "theme": "医学生命",
-      "type": "health"
+      "type": "place_direction"
     },
     {
       "file": "topik6-v0270-68.svg",
@@ -12129,7 +12129,7 @@
       "cn": "不平等",
       "level": "六级",
       "theme": "社会问题",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik6-v0272-43.svg",
@@ -12137,7 +12137,7 @@
       "cn": "矛盾；冲突",
       "level": "六级",
       "theme": "社会问题",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik6-v0273-961.svg",
@@ -12201,7 +12201,7 @@
       "cn": "才；方才",
       "level": "六级",
       "theme": "连接副词",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-v0281-377.svg",
@@ -12217,7 +12217,7 @@
       "cn": "而且；再加上",
       "level": "六级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-v0283-808.svg",
@@ -12289,7 +12289,7 @@
       "cn": "陆续地",
       "level": "六级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2213-328.svg",
@@ -12401,7 +12401,7 @@
       "cn": "马上",
       "level": "六级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2337-485.svg",
@@ -12449,7 +12449,7 @@
       "cn": "一下子",
       "level": "六级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2434-701.svg",
@@ -12553,7 +12553,7 @@
       "cn": "马上，立刻",
       "level": "六级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2723-400.svg",
@@ -12561,7 +12561,7 @@
       "cn": "早，早点儿",
       "level": "六级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2730-943.svg",
@@ -12593,7 +12593,7 @@
       "cn": "真要， 实际上",
       "level": "六级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2875-507.svg",
@@ -12641,7 +12641,7 @@
       "cn": "(花) 开，长",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_flower"
     },
     {
       "file": "base-pdf___0017-155.svg",
@@ -12649,7 +12649,7 @@
       "cn": "鸭子",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_animal"
     },
     {
       "file": "base-pdf___0074-840.svg",
@@ -12657,7 +12657,7 @@
       "cn": "老虎",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_animal"
     },
     {
       "file": "base-pdf___0091-617.svg",
@@ -12665,7 +12665,7 @@
       "cn": "登山",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0154-680.svg",
@@ -12681,7 +12681,7 @@
       "cn": "小狗",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_animal"
     },
     {
       "file": "base-pdf___0398-31.svg",
@@ -12689,7 +12689,7 @@
       "cn": "大海",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_sea"
     },
     {
       "file": "base-pdf___0505-630.svg",
@@ -12697,7 +12697,7 @@
       "cn": "釜山",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "base-pdf___0548-197.svg",
@@ -12713,7 +12713,7 @@
       "cn": "木槿花",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_flower"
     },
     {
       "file": "base-pdf___0749-181.svg",
@@ -12729,7 +12729,7 @@
       "cn": "计算，结账",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "base-pdf___0937-911.svg",
@@ -12737,7 +12737,7 @@
       "cn": "南山",
       "level": "基础",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "base-pdf___0147-928.svg",
@@ -12745,7 +12745,7 @@
       "cn": "消化剂， 消食药",
       "level": "基础",
       "theme": "自然动物",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "base-pdf___0164-248.svg",
@@ -12905,7 +12905,7 @@
       "cn": "柿子",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0078-367.svg",
@@ -12937,7 +12937,7 @@
       "cn": "夹克",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0089-194.svg",
@@ -12953,7 +12953,7 @@
       "cn": "超市",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "money_shop"
     },
     {
       "file": "base-pdf___0100-107.svg",
@@ -13001,7 +13001,7 @@
       "cn": "香蕉",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0116-443.svg",
@@ -13009,7 +13009,7 @@
       "cn": "果汁",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_drink"
     },
     {
       "file": "base-pdf___0123-666.svg",
@@ -13041,7 +13041,7 @@
       "cn": "大米",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "food"
+      "type": "food_rice"
     },
     {
       "file": "base-pdf___0144-142.svg",
@@ -13177,7 +13177,7 @@
       "cn": "客厅",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0188-794.svg",
@@ -13201,7 +13201,7 @@
       "cn": "戒指",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_accessory"
     },
     {
       "file": "base-pdf___0194-310.svg",
@@ -13209,7 +13209,7 @@
       "cn": "项链",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_accessory"
     },
     {
       "file": "base-pdf___0197-60.svg",
@@ -13257,7 +13257,7 @@
       "cn": "马上， 刚才",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0213-244.svg",
@@ -13289,7 +13289,7 @@
       "cn": "蛋糕",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "food"
+      "type": "food_cake"
     },
     {
       "file": "base-pdf___0226-599.svg",
@@ -13321,7 +13321,7 @@
       "cn": "短裤",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0239-429.svg",
@@ -13329,7 +13329,7 @@
       "cn": "搬家",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0242-254.svg",
@@ -13337,7 +13337,7 @@
       "cn": "橙子",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0245-660.svg",
@@ -13361,7 +13361,7 @@
       "cn": "毛衣",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0254-492.svg",
@@ -13441,7 +13441,7 @@
       "cn": "葡萄",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0277-892.svg",
@@ -13457,7 +13457,7 @@
       "cn": "领带",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_accessory"
     },
     {
       "file": "base-pdf___0282-106.svg",
@@ -13497,7 +13497,7 @@
       "cn": "分数",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "school"
+      "type": "school_exam"
     },
     {
       "file": "base-pdf___0307-838.svg",
@@ -13617,7 +13617,7 @@
       "cn": "宿舍",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0344-11.svg",
@@ -13641,7 +13641,7 @@
       "cn": "(气温) 零上",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0350-600.svg",
@@ -13697,7 +13697,7 @@
       "cn": "国家",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0365-546.svg",
@@ -13945,7 +13945,7 @@
       "cn": "(要洗的) 衣物",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0435-202.svg",
@@ -13969,7 +13969,7 @@
       "cn": "画家",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0447-397.svg",
@@ -13993,7 +13993,7 @@
       "cn": "信号灯",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0453-732.svg",
@@ -14265,7 +14265,7 @@
       "cn": "上个月",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0562-658.svg",
@@ -14433,7 +14433,7 @@
       "cn": "下班",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0609-713.svg",
@@ -14441,7 +14441,7 @@
       "cn": "感动",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0611-515.svg",
@@ -14697,7 +14697,7 @@
       "cn": "牛仔裤",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0701-871.svg",
@@ -14761,7 +14761,7 @@
       "cn": "土豆",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0725-379.svg",
@@ -14833,7 +14833,7 @@
       "cn": "洗衣机",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0745-408.svg",
@@ -14841,7 +14841,7 @@
       "cn": "西红柿",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "food_fruit"
     },
     {
       "file": "base-pdf___0751-625.svg",
@@ -14937,7 +14937,7 @@
       "cn": "联系方式",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "tech_phone"
     },
     {
       "file": "base-pdf___0786-176.svg",
@@ -15009,7 +15009,7 @@
       "cn": "民俗村",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0823-15.svg",
@@ -15033,7 +15033,7 @@
       "cn": "厨房",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0827-20.svg",
@@ -15201,7 +15201,7 @@
       "cn": "地下",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0898-732.svg",
@@ -15465,7 +15465,7 @@
       "cn": "裙子",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0973-352.svg",
@@ -15521,7 +15521,7 @@
       "cn": "连衣裙",
       "level": "基础",
       "theme": "生活核心词",
-      "type": "home"
+      "type": "fashion_clothes"
     },
     {
       "file": "base-pdf___0993-816.svg",
@@ -15569,7 +15569,7 @@
       "cn": "演出",
       "level": "基础",
       "theme": "兴趣文化",
-      "type": "stage"
+      "type": "stage_show"
     },
     {
       "file": "base-pdf___0752-593.svg",
@@ -15593,7 +15593,7 @@
       "cn": "上班",
       "level": "基础",
       "theme": "工作职业",
-      "type": "action"
+      "type": "place_direction"
     },
     {
       "file": "base-pdf___0275-100.svg",
@@ -15625,7 +15625,7 @@
       "cn": "企业家",
       "level": "基础",
       "theme": "工作职业",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "base-pdf___0801-954.svg",
@@ -15641,7 +15641,7 @@
       "cn": "肥皂",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0186-818.svg",
@@ -15649,7 +15649,7 @@
       "cn": "六月",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "time_calendar"
     },
     {
       "file": "base-pdf___0280-637.svg",
@@ -15657,7 +15657,7 @@
       "cn": "台风",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0285-308.svg",
@@ -15665,7 +15665,7 @@
       "cn": "秘密",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "base-pdf___0290-57.svg",
@@ -15673,7 +15673,7 @@
       "cn": "迎春花",
       "level": "基础",
       "theme": "时间天气",
-      "type": "nature"
+      "type": "nature_flower"
     },
     {
       "file": "base-pdf___0324-566.svg",
@@ -15689,7 +15689,7 @@
       "cn": "月薪",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "time_calendar"
     },
     {
       "file": "base-pdf___0415-883.svg",
@@ -15705,7 +15705,7 @@
       "cn": "世界杯",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "time_calendar"
     },
     {
       "file": "base-pdf___0599-152.svg",
@@ -15713,7 +15713,7 @@
       "cn": "月租金",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "time_calendar"
     },
     {
       "file": "base-pdf___0632-658.svg",
@@ -15729,7 +15729,7 @@
       "cn": "雪岳山",
       "level": "基础",
       "theme": "时间天气",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "base-pdf___0685-135.svg",
@@ -15753,7 +15753,7 @@
       "cn": "滑雪",
       "level": "基础",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_snow"
     },
     {
       "file": "base-pdf___0980-509.svg",
@@ -15857,7 +15857,7 @@
       "cn": "电脑",
       "level": "基础",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "base-pdf___0736-22.svg",
@@ -15865,7 +15865,7 @@
       "cn": "信息，口信",
       "level": "基础",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "base-pdf___0024-382.svg",
@@ -15873,7 +15873,7 @@
       "cn": "互联网",
       "level": "基础",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "base-pdf___0056-914.svg",
@@ -15881,7 +15881,7 @@
       "cn": "公用电话",
       "level": "基础",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_phone"
     },
     {
       "file": "base-pdf___0174-390.svg",
@@ -15889,7 +15889,7 @@
       "cn": "手机",
       "level": "基础",
       "theme": "科技通讯",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "base-pdf___0005-180.svg",
@@ -15897,7 +15897,7 @@
       "cn": "樱花",
       "level": "基础",
       "theme": "兴趣休闲",
-      "type": "nature"
+      "type": "nature_flower"
     },
     {
       "file": "base-pdf___0111-975.svg",
@@ -15905,7 +15905,7 @@
       "cn": "购物",
       "level": "基础",
       "theme": "兴趣休闲",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "base-pdf___0779-340.svg",
@@ -15913,7 +15913,7 @@
       "cn": "花",
       "level": "基础",
       "theme": "兴趣休闲",
-      "type": "nature"
+      "type": "nature_flower"
     },
     {
       "file": "base-pdf___0069-435.svg",
@@ -15961,7 +15961,7 @@
       "cn": "信息",
       "level": "基础",
       "theme": "社会生活",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "topik4-pdf___1001-704.svg",
@@ -15985,7 +15985,7 @@
       "cn": "裤子",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "fashion"
+      "type": "fashion_clothes"
     },
     {
       "file": "topik4-pdf___1006-5.svg",
@@ -16065,7 +16065,7 @@
       "cn": "衣柜",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "fashion"
+      "type": "fashion_clothes"
     },
     {
       "file": "topik4-pdf___1031-492.svg",
@@ -16073,7 +16073,7 @@
       "cn": "天下",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1033-113.svg",
@@ -16105,7 +16105,7 @@
       "cn": "厨房",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1040-912.svg",
@@ -16465,7 +16465,7 @@
       "cn": "反感",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1219-873.svg",
@@ -16537,7 +16537,7 @@
       "cn": "亲切",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1253-791.svg",
@@ -16705,7 +16705,7 @@
       "cn": "国家机关",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1322-740.svg",
@@ -16817,7 +16817,7 @@
       "cn": "洗衣店",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "fashion"
+      "type": "fashion_clothes"
     },
     {
       "file": "topik4-pdf___1353-93.svg",
@@ -16921,7 +16921,7 @@
       "cn": "超市",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "money_shop"
     },
     {
       "file": "topik4-pdf___1379-567.svg",
@@ -17057,7 +17057,7 @@
       "cn": "小说家",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1421-898.svg",
@@ -17121,7 +17121,7 @@
       "cn": "导演，教练",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1451-453.svg",
@@ -17129,7 +17129,7 @@
       "cn": "专家",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1454-876.svg",
@@ -17265,7 +17265,7 @@
       "cn": "露宿者， 无家可归者",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1492-787.svg",
@@ -17281,7 +17281,7 @@
       "cn": "论文",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "school_book"
     },
     {
       "file": "topik4-pdf___1505-154.svg",
@@ -17353,7 +17353,7 @@
       "cn": "下馆子",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1544-767.svg",
@@ -17465,7 +17465,7 @@
       "cn": "症状",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "health_medicine"
     },
     {
       "file": "topik4-pdf___1604-152.svg",
@@ -17633,7 +17633,7 @@
       "cn": "感觉",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1661-935.svg",
@@ -17681,7 +17681,7 @@
       "cn": "民俗游戏",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1678-92.svg",
@@ -17705,7 +17705,7 @@
       "cn": "灯，油灯",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1684-176.svg",
@@ -18193,7 +18193,7 @@
       "cn": "下属",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1862-639.svg",
@@ -18217,7 +18217,7 @@
       "cn": "金属",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1866-890.svg",
@@ -18401,7 +18401,7 @@
       "cn": "作家",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1907-909.svg",
@@ -18449,7 +18449,7 @@
       "cn": "健身房",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1922-389.svg",
@@ -18465,7 +18465,7 @@
       "cn": "红酒",
       "level": "四级",
       "theme": "中级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik4-pdf___1924-647.svg",
@@ -18705,7 +18705,7 @@
       "cn": "房地产",
       "level": "四级",
       "theme": "自然动物",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1084-24.svg",
@@ -18713,7 +18713,7 @@
       "cn": "爆米花",
       "level": "四级",
       "theme": "自然动物",
-      "type": "food"
+      "type": "nature_flower"
     },
     {
       "file": "topik4-pdf___1218-977.svg",
@@ -18721,7 +18721,7 @@
       "cn": "莲花",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_flower"
     },
     {
       "file": "topik4-pdf___1239-161.svg",
@@ -18729,7 +18729,7 @@
       "cn": "东海",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_sea"
     },
     {
       "file": "topik4-pdf___1336-977.svg",
@@ -18737,7 +18737,7 @@
       "cn": "遗产",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik4-pdf___1402-437.svg",
@@ -18745,7 +18745,7 @@
       "cn": "财产",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik4-pdf___1543-691.svg",
@@ -18753,7 +18753,7 @@
       "cn": "石窟庵(位于庆州市吐含山， 是韩国代表性的石窟寺)",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik4-pdf___1551-477.svg",
@@ -18769,7 +18769,7 @@
       "cn": "产量",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik4-pdf___1630-67.svg",
@@ -18777,7 +18777,7 @@
       "cn": "海边",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_sea"
     },
     {
       "file": "topik4-pdf___1647-651.svg",
@@ -18785,7 +18785,7 @@
       "cn": "宠物狗",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_animal"
     },
     {
       "file": "topik4-pdf___1666-474.svg",
@@ -18793,7 +18793,7 @@
       "cn": "出生率",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik4-pdf___1773-754.svg",
@@ -18809,7 +18809,7 @@
       "cn": "海浪",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_sea"
     },
     {
       "file": "topik4-pdf___1886-623.svg",
@@ -18817,7 +18817,7 @@
       "cn": "预算",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik4-pdf___1896-78.svg",
@@ -18833,7 +18833,7 @@
       "cn": "海洋",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_sea"
     },
     {
       "file": "topik4-pdf___1496-599.svg",
@@ -18849,7 +18849,7 @@
       "cn": "汽油",
       "level": "四级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "health_body"
     },
     {
       "file": "topik4-pdf___1017-11.svg",
@@ -18873,7 +18873,7 @@
       "cn": "饮料",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1176-248.svg",
@@ -18905,7 +18905,7 @@
       "cn": "废水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1416-17.svg",
@@ -18929,7 +18929,7 @@
       "cn": "凉水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1519-449.svg",
@@ -18937,7 +18937,7 @@
       "cn": "海水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1660-743.svg",
@@ -18945,7 +18945,7 @@
       "cn": "洪水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1676-848.svg",
@@ -18953,7 +18953,7 @@
       "cn": "水准， 水平",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1698-976.svg",
@@ -18977,7 +18977,7 @@
       "cn": "墨水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1801-268.svg",
@@ -18993,7 +18993,7 @@
       "cn": "跳水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1818-292.svg",
@@ -19009,7 +19009,7 @@
       "cn": "五花肉",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "nature_flower"
     },
     {
       "file": "topik4-pdf___1934-691.svg",
@@ -19025,7 +19025,7 @@
       "cn": "露水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1976-223.svg",
@@ -19041,7 +19041,7 @@
       "cn": "淡水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1032-558.svg",
@@ -19057,7 +19057,7 @@
       "cn": "豆芽",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1074-325.svg",
@@ -19073,7 +19073,7 @@
       "cn": "行李， 包裹",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1091-322.svg",
@@ -19105,7 +19105,7 @@
       "cn": "下决心",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1234-104.svg",
@@ -19129,7 +19129,7 @@
       "cn": "稀罕，少见",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1382-962.svg",
@@ -19137,7 +19137,7 @@
       "cn": "井底之蛙",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1426-547.svg",
@@ -19145,7 +19145,7 @@
       "cn": "自来水",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1535-433.svg",
@@ -19153,7 +19153,7 @@
       "cn": "咬， 偿还",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1649-412.svg",
@@ -19169,7 +19169,7 @@
       "cn": "化合物",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1921-847.svg",
@@ -19177,7 +19177,7 @@
       "cn": "水分",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1983-49.svg",
@@ -19185,7 +19185,7 @@
       "cn": "货车",
       "level": "四级",
       "theme": "饮食",
-      "type": "food"
+      "type": "food_drink"
     },
     {
       "file": "topik4-pdf___1019-346.svg",
@@ -19257,7 +19257,7 @@
       "cn": "无上， 莫大， 非常",
       "level": "四级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1258-226.svg",
@@ -19289,7 +19289,7 @@
       "cn": "马上， 正是",
       "level": "四级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1296-515.svg",
@@ -19361,7 +19361,7 @@
       "cn": "加上，而且",
       "level": "四级",
       "theme": "连接副词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1493-874.svg",
@@ -19633,7 +19633,7 @@
       "cn": "家庭账本",
       "level": "四级",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1149-99.svg",
@@ -19665,7 +19665,7 @@
       "cn": "父母",
       "level": "四级",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "topik4-pdf___1328-342.svg",
@@ -19793,7 +19793,7 @@
       "cn": "婆婆",
       "level": "四级",
       "theme": "人物家庭",
-      "type": "home"
+      "type": "people_family"
     },
     {
       "file": "topik4-pdf___1233-771.svg",
@@ -19865,7 +19865,7 @@
       "cn": "歌词",
       "level": "四级",
       "theme": "兴趣文化",
-      "type": "stage"
+      "type": "stage_music"
     },
     {
       "file": "topik4-pdf___1430-351.svg",
@@ -19873,7 +19873,7 @@
       "cn": "歌谣",
       "level": "四级",
       "theme": "兴趣文化",
-      "type": "stage"
+      "type": "stage_music"
     },
     {
       "file": "topik4-pdf___1706-849.svg",
@@ -19881,7 +19881,7 @@
       "cn": "表演，演出",
       "level": "四级",
       "theme": "兴趣文化",
-      "type": "stage"
+      "type": "stage_show"
     },
     {
       "file": "topik4-pdf___1817-369.svg",
@@ -19905,7 +19905,7 @@
       "cn": "管制， 取缔， 查处",
       "level": "四级",
       "theme": "政治法律",
-      "type": "law"
+      "type": "place_direction"
     },
     {
       "file": "topik4-pdf___1500-879.svg",
@@ -19929,7 +19929,7 @@
       "cn": "政策",
       "level": "四级",
       "theme": "政治法律",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik4-pdf___1054-941.svg",
@@ -19945,7 +19945,7 @@
       "cn": "浪费",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1185-284.svg",
@@ -19953,7 +19953,7 @@
       "cn": "具备， 备齐",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1192-201.svg",
@@ -19969,7 +19969,7 @@
       "cn": "排骨",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1452-875.svg",
@@ -19977,7 +19977,7 @@
       "cn": "搓，揉",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1514-115.svg",
@@ -19985,7 +19985,7 @@
       "cn": "对比",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1574-583.svg",
@@ -19993,7 +19993,7 @@
       "cn": "虽然",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1816-569.svg",
@@ -20017,7 +20017,7 @@
       "cn": "悲剧",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1890-66.svg",
@@ -20033,7 +20033,7 @@
       "cn": "稻草人， 傀儡",
       "level": "四级",
       "theme": "天气季节",
-      "type": "people"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1947-46.svg",
@@ -20041,7 +20041,7 @@
       "cn": "分泌",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1956-454.svg",
@@ -20049,7 +20049,7 @@
       "cn": "拥挤",
       "level": "四级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1959-227.svg",
@@ -20057,7 +20057,7 @@
       "cn": "份子钱",
       "level": "四级",
       "theme": "天气季节",
-      "type": "money"
+      "type": "weather_rain"
     },
     {
       "file": "topik4-pdf___1255-397.svg",
@@ -20065,7 +20065,7 @@
       "cn": "家务",
       "level": "四级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1270-183.svg",
@@ -20089,7 +20089,7 @@
       "cn": "防止",
       "level": "四级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1448-481.svg",
@@ -20097,7 +20097,7 @@
       "cn": "访问",
       "level": "四级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1674-724.svg",
@@ -20105,7 +20105,7 @@
       "cn": "坚持",
       "level": "四级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1733-680.svg",
@@ -20113,7 +20113,7 @@
       "cn": "乔迁宴",
       "level": "四级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1735-853.svg",
@@ -20145,7 +20145,7 @@
       "cn": "妨碍，干扰",
       "level": "四级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1888-407.svg",
@@ -20153,7 +20153,7 @@
       "cn": "方言",
       "level": "四级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik4-pdf___1030-836.svg",
@@ -20161,7 +20161,7 @@
       "cn": "满月",
       "level": "四级",
       "theme": "时间日期",
-      "type": "time"
+      "type": "time_calendar"
     },
     {
       "file": "topik4-pdf___1111-796.svg",
@@ -20289,7 +20289,7 @@
       "cn": "梯子",
       "level": "四级",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "topik4-pdf___1142-127.svg",
@@ -20305,7 +20305,7 @@
       "cn": "卖场，埋藏",
       "level": "四级",
       "theme": "兴趣休闲",
-      "type": "abstract"
+      "type": "money_shop"
     },
     {
       "file": "topik4-pdf___1235-121.svg",
@@ -20545,7 +20545,7 @@
       "cn": "反感",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2098-694.svg",
@@ -20577,7 +20577,7 @@
       "cn": "感受，感触",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2106-61.svg",
@@ -20641,7 +20641,7 @@
       "cn": "感性的",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2132-647.svg",
@@ -20745,7 +20745,7 @@
       "cn": "韩屋，韩式房屋",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2188-240.svg",
@@ -20785,7 +20785,7 @@
       "cn": "全租(韩国特有的租房形式， 只要交一笔可观的押金就不需要按月支付租金)",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2198-199.svg",
@@ -20793,7 +20793,7 @@
       "cn": "买卖",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "money_shop"
     },
     {
       "file": "topik6-pdf___2199-485.svg",
@@ -20801,7 +20801,7 @@
       "cn": "重感冒",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2202-877.svg",
@@ -20841,7 +20841,7 @@
       "cn": "考古学家",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2228-92.svg",
@@ -20889,7 +20889,7 @@
       "cn": "心理学家",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2263-686.svg",
@@ -20897,7 +20897,7 @@
       "cn": "游戏上瘾",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2264-770.svg",
@@ -21129,7 +21129,7 @@
       "cn": "背包",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2357-838.svg",
@@ -21241,7 +21241,7 @@
       "cn": "作曲家",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2398-526.svg",
@@ -21329,7 +21329,7 @@
       "cn": "同感，共鸣",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2422-391.svg",
@@ -21433,7 +21433,7 @@
       "cn": "新兴国家",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2464-919.svg",
@@ -21497,7 +21497,7 @@
       "cn": "生活， 家务",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2489-276.svg",
@@ -21665,7 +21665,7 @@
       "cn": "( 房地产 ) 出售，分开出让",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2538-7.svg",
@@ -21713,7 +21713,7 @@
       "cn": "票房，发行",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2567-350.svg",
@@ -21809,7 +21809,7 @@
       "cn": "金戒指",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "fashion"
+      "type": "fashion_accessory"
     },
     {
       "file": "topik6-pdf___2598-940.svg",
@@ -21825,7 +21825,7 @@
       "cn": "飞机",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "transport"
+      "type": "transport_plane"
     },
     {
       "file": "topik6-pdf___2605-82.svg",
@@ -21905,7 +21905,7 @@
       "cn": "葡萄糖",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2630-454.svg",
@@ -22001,7 +22001,7 @@
       "cn": "指示灯",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2649-691.svg",
@@ -22057,7 +22057,7 @@
       "cn": "连带感",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2666-967.svg",
@@ -22089,7 +22089,7 @@
       "cn": "家务",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2683-225.svg",
@@ -22145,7 +22145,7 @@
       "cn": "等分，平分",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2696-816.svg",
@@ -22625,7 +22625,7 @@
       "cn": "基地，家园，根基",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2882-654.svg",
@@ -22737,7 +22737,7 @@
       "cn": "上司",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "abstract"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2933-840.svg",
@@ -22793,7 +22793,7 @@
       "cn": "买家",
       "level": "六级",
       "theme": "高级核心词",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "topik6-pdf___2952-885.svg",
@@ -22929,7 +22929,7 @@
       "cn": "荒凉，冷漠",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik6-pdf___2166-479.svg",
@@ -22937,7 +22937,7 @@
       "cn": "(做起来) 轻松",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "time_calendar"
     },
     {
       "file": "topik6-pdf___2227-400.svg",
@@ -22945,7 +22945,7 @@
       "cn": "冷漠，冷静",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik6-pdf___2269-68.svg",
@@ -22953,7 +22953,7 @@
       "cn": "暴雪",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_snow"
     },
     {
       "file": "topik6-pdf___2327-506.svg",
@@ -22961,7 +22961,7 @@
       "cn": "无情，冷酷",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2328-693.svg",
@@ -22969,7 +22969,7 @@
       "cn": "恳切，热切",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik6-pdf___2429-566.svg",
@@ -22977,7 +22977,7 @@
       "cn": "人工降雨",
       "level": "六级",
       "theme": "时间天气",
-      "type": "people"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2468-695.svg",
@@ -22985,7 +22985,7 @@
       "cn": "单调，冷漠",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_hotcold"
     },
     {
       "file": "topik6-pdf___2474-990.svg",
@@ -22993,7 +22993,7 @@
       "cn": "化肥",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2479-493.svg",
@@ -23001,7 +23001,7 @@
       "cn": "卓越",
       "level": "六级",
       "theme": "时间天气",
-      "type": "weather"
+      "type": "time_calendar"
     },
     {
       "file": "topik6-pdf___2600-614.svg",
@@ -23121,7 +23121,7 @@
       "cn": "不顺眼",
       "level": "六级",
       "theme": "人物家庭",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2959-203.svg",
@@ -23161,7 +23161,7 @@
       "cn": "明目张胆， 公然",
       "level": "六级",
       "theme": "兴趣文化",
-      "type": "stage"
+      "type": "stage_show"
     },
     {
       "file": "topik6-pdf___2193-594.svg",
@@ -23169,7 +23169,7 @@
       "cn": "歌剧",
       "level": "六级",
       "theme": "兴趣文化",
-      "type": "stage"
+      "type": "stage_music"
     },
     {
       "file": "topik6-pdf___2416-983.svg",
@@ -23185,7 +23185,7 @@
       "cn": "音乐剧",
       "level": "六级",
       "theme": "兴趣文化",
-      "type": "stage"
+      "type": "stage_music"
     },
     {
       "file": "topik6-pdf___2208-822.svg",
@@ -23193,7 +23193,7 @@
       "cn": "虚脱，空虚",
       "level": "六级",
       "theme": "状态形容词",
-      "type": "emotion"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2250-954.svg",
@@ -23233,7 +23233,7 @@
       "cn": "感情",
       "level": "六级",
       "theme": "情感心理",
-      "type": "abstract"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2574-129.svg",
@@ -23249,7 +23249,7 @@
       "cn": "鉴定",
       "level": "六级",
       "theme": "情感心理",
-      "type": "action"
+      "type": "food_fruit"
     },
     {
       "file": "topik6-pdf___2242-516.svg",
@@ -23313,7 +23313,7 @@
       "cn": "金融制度",
       "level": "六级",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-pdf___2397-741.svg",
@@ -23321,7 +23321,7 @@
       "cn": "经济活动",
       "level": "六级",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-pdf___2524-814.svg",
@@ -23329,7 +23329,7 @@
       "cn": "信用卡",
       "level": "六级",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_card"
     },
     {
       "file": "topik6-pdf___2568-339.svg",
@@ -23337,7 +23337,7 @@
       "cn": "经济低迷",
       "level": "六级",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_chart"
     },
     {
       "file": "topik6-pdf___2618-512.svg",
@@ -23345,7 +23345,7 @@
       "cn": "股票市场",
       "level": "六级",
       "theme": "购物金钱",
-      "type": "money"
+      "type": "money_shop"
     },
     {
       "file": "topik6-pdf___2585-703.svg",
@@ -23385,7 +23385,7 @@
       "cn": "电脑文件",
       "level": "六级",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "topik6-pdf___2946-965.svg",
@@ -23401,7 +23401,7 @@
       "cn": "互联网",
       "level": "六级",
       "theme": "科技通讯",
-      "type": "tech"
+      "type": "tech_computer"
     },
     {
       "file": "topik6-pdf___2533-337.svg",
@@ -23425,7 +23425,7 @@
       "cn": "亲自， 亲自动手",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2131-445.svg",
@@ -23433,7 +23433,7 @@
       "cn": "绝(不（) 后接否定）",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2141-51.svg",
@@ -23441,7 +23441,7 @@
       "cn": "损毁",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2142-622.svg",
@@ -23449,7 +23449,7 @@
       "cn": "头发",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2143-463.svg",
@@ -23457,7 +23457,7 @@
       "cn": "眉毛",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2145-642.svg",
@@ -23473,7 +23473,7 @@
       "cn": "套(衣服)",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "fashion_clothes"
     },
     {
       "file": "topik6-pdf___2173-549.svg",
@@ -23489,7 +23489,7 @@
       "cn": "( 新势力或现象 ) 抬头， 兴起",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2206-149.svg",
@@ -23497,7 +23497,7 @@
       "cn": "反抗",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2246-622.svg",
@@ -23505,7 +23505,7 @@
       "cn": "和和美美地，和睦地",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2249-851.svg",
@@ -23513,7 +23513,7 @@
       "cn": "不逊色",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2268-678.svg",
@@ -23521,7 +23521,7 @@
       "cn": "再开发",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2305-492.svg",
@@ -23529,7 +23529,7 @@
       "cn": "芭蕾舞",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2313-714.svg",
@@ -23537,7 +23537,7 @@
       "cn": "炎症",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik6-pdf___2375-193.svg",
@@ -23545,7 +23545,7 @@
       "cn": "眼色，脸色",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2392-375.svg",
@@ -23553,7 +23553,7 @@
       "cn": "留心看，仔细看",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2410-352.svg",
@@ -23561,7 +23561,7 @@
       "cn": "诱发",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2498-331.svg",
@@ -23577,7 +23577,7 @@
       "cn": "滥发， ( 说话、 行动 ) 胡乱",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2540-418.svg",
@@ -23593,7 +23593,7 @@
       "cn": "雪崩",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2653-768.svg",
@@ -23609,7 +23609,7 @@
       "cn": "脚趾甲",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2783-195.svg",
@@ -23641,7 +23641,7 @@
       "cn": "挺身而出，自告奋勇",
       "level": "六级",
       "theme": "身体健康",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2070-506.svg",
@@ -23657,7 +23657,7 @@
       "cn": "警卫， 保安",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2207-373.svg",
@@ -23665,7 +23665,7 @@
       "cn": "卑劣， 卑躬屈膝",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2240-458.svg",
@@ -23673,7 +23673,7 @@
       "cn": "悲壮的",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2296-651.svg",
@@ -23681,7 +23681,7 @@
       "cn": "评论家，批评家",
       "level": "六级",
       "theme": "天气季节",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2390-341.svg",
@@ -23697,7 +23697,7 @@
       "cn": "兼备",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2480-822.svg",
@@ -23705,7 +23705,7 @@
       "cn": "旅费",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2535-114.svg",
@@ -23713,7 +23713,7 @@
       "cn": "指责，谴责",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2601-296.svg",
@@ -23721,7 +23721,7 @@
       "cn": "书生",
       "level": "六级",
       "theme": "天气季节",
-      "type": "school"
+      "type": "school_book"
     },
     {
       "file": "topik6-pdf___2669-248.svg",
@@ -23737,7 +23737,7 @@
       "cn": "肥胖",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2735-584.svg",
@@ -23745,7 +23745,7 @@
       "cn": "始于，出于，缘于",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2769-885.svg",
@@ -23761,7 +23761,7 @@
       "cn": "狭窄，狭小",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2775-139.svg",
@@ -23777,7 +23777,7 @@
       "cn": "歪，斜",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2794-389.svg",
@@ -23785,7 +23785,7 @@
       "cn": "被麻痹， 瘫痪",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2807-567.svg",
@@ -23793,7 +23793,7 @@
       "cn": "鳞",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2812-206.svg",
@@ -23801,7 +23801,7 @@
       "cn": "俚语",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2836-860.svg",
@@ -23817,7 +23817,7 @@
       "cn": "比比皆是",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2911-448.svg",
@@ -23825,7 +23825,7 @@
       "cn": "蓝图，展望，构想",
       "level": "六级",
       "theme": "天气季节",
-      "type": "weather"
+      "type": "weather_rain"
     },
     {
       "file": "topik6-pdf___2203-439.svg",
@@ -23849,7 +23849,7 @@
       "cn": "释放",
       "level": "六级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2622-804.svg",
@@ -23865,7 +23865,7 @@
       "cn": "无妨，不碍事",
       "level": "六级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2848-495.svg",
@@ -23873,7 +23873,7 @@
       "cn": "强降雨， 瓢泼大雨",
       "level": "六级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2899-464.svg",
@@ -23881,7 +23881,7 @@
       "cn": "潜水",
       "level": "六级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2910-623.svg",
@@ -23889,7 +23889,7 @@
       "cn": "执迷， 沉迷",
       "level": "六级",
       "theme": "日常起居",
-      "type": "home"
+      "type": "home_room"
     },
     {
       "file": "topik6-pdf___2060-753.svg",
@@ -23921,7 +23921,7 @@
       "cn": "沾手",
       "level": "六级",
       "theme": "时间日期",
-      "type": "health"
+      "type": "health_body"
     },
     {
       "file": "topik6-pdf___2606-200.svg",
@@ -23929,7 +23929,7 @@
       "cn": "上流阶层",
       "level": "六级",
       "theme": "时间日期",
-      "type": "time"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2641-768.svg",
@@ -23969,7 +23969,7 @@
       "cn": "海军",
       "level": "六级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "nature_sea"
     },
     {
       "file": "topik6-pdf___2432-333.svg",
@@ -23985,7 +23985,7 @@
       "cn": "水温",
       "level": "六级",
       "theme": "自然动物",
-      "type": "nature"
+      "type": "food_drink"
     },
     {
       "file": "topik6-pdf___2754-933.svg",
@@ -23993,7 +23993,7 @@
       "cn": "解热药，退烧药",
       "level": "六级",
       "theme": "自然动物",
-      "type": "health"
+      "type": "health_medicine"
     },
     {
       "file": "topik6-pdf___2027-569.svg",
@@ -24001,7 +24001,7 @@
       "cn": "(雨) 下下停停",
       "level": "六级",
       "theme": "文化艺术",
-      "type": "weather"
+      "type": "place_direction"
     },
     {
       "file": "topik6-pdf___2092-417.svg",
@@ -24017,7 +24017,7 @@
       "cn": "文化遗产",
       "level": "六级",
       "theme": "文化艺术",
-      "type": "nature"
+      "type": "nature_mountain"
     },
     {
       "file": "topik6-pdf___2859-495.svg",
