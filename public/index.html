@@ -742,7 +742,7 @@ function flickrUrl(q,lock){return 'https://loremflickr.com/420/260/'+encodeURICo
 function flickrWordImage(w){const q=wordVisualKeyword(w);const lock=1000+stableHash((w.level||'')+'|'+(w.id||'')+'|'+w.kr+'|'+q);return flickrUrl(q,lock);}
 function flickrBackupImage(w){const q=imageKeyword(w);const lock=2000+stableHash((w.theme||'')+'|'+(w.kr||'')+'|backup');return flickrUrl(q,lock);}
 function imageLevelCode(lv){return lv==='基础'?'base':lv==='四级'?'topik4':lv==='六级'?'topik6':'word';}
-function wordImageFile(w){return imageLevelCode(w.level)+'-'+String(w.id||stableHash(w.kr)).replace(/[^0-9A-Za-z_-]/g,'')+'-'+stableHash((w.kr||'')+'|'+(w.cn||''))+'.jpg';}
+function wordImageFile(w){return imageLevelCode(w.level)+'-'+String(w.id||stableHash(w.kr)).replace(/[^0-9A-Za-z_-]/g,'')+'-'+stableHash((w.kr||'')+'|'+(w.cn||''))+'.svg';}
 function localWordImage(w){return 'vocab-images/'+wordImageFile(w);}
 function wordImageUrl(w){if(!w)return fallbackImage({theme:'复习'});return localWordImage(w);}
 function fallbackImage(w){const label=(w&&w.theme)||'Korean';return 'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#a6ecd8"/><stop offset="1" stop-color="#ff7ab4"/></linearGradient></defs><rect width="600" height="400" fill="url(#g)"/><circle cx="300" cy="145" r="58" fill="rgba(255,255,255,.72)"/><text x="300" y="285" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" font-weight="700" fill="#fff">'+label.replace(/[<>&]/g,'')+'</text></svg>');}
@@ -790,8 +790,8 @@ function renderWordImage(box,w,useIdol){
   if(!w){const img=document.createElement('img');img.className='wordphoto';img.src=fallbackImage({cn:'今天没有到期复习',theme:'复习'});box.appendChild(img);const cap=document.createElement('span');cap.className='piccap';cap.textContent='今天没有到期复习';box.appendChild(cap);return;}
   const img=document.createElement('img');img.className='wordphoto';img.alt=w.theme||'Korean word';img.loading='eager';img.decoding='async';img.fetchPriority='high';
   if(useIdol&&idolPhotos.length){const list=currentPhotos&&currentPhotos().length?currentPhotos():idolPhotos;img.src=list[mi%list.length].src;}else{img.src=wordImageUrl(w);}
-  img.dataset.backup=useIdol?'':flickrWordImage(w);img.dataset.final=useIdol?'':flickrBackupImage(w);img.dataset.last=useIdol?'':pooledThemeImage(w);
-  img.onerror=function(){if(this.dataset.backup&&this.src!==this.dataset.backup){this.src=this.dataset.backup;this.dataset.backup='';return;}if(this.dataset.final&&this.src!==this.dataset.final){this.src=this.dataset.final;this.dataset.final='';return;}if(this.dataset.last&&this.src!==this.dataset.last){this.src=this.dataset.last;this.dataset.last='';return;}this.onerror=null;this.src=fallbackImage(w);};
+  img.dataset.backup=useIdol?'':fallbackImage(w);
+  img.onerror=function(){if(this.dataset.backup&&this.src!==this.dataset.backup){this.src=this.dataset.backup;this.dataset.backup='';return;}this.onerror=null;this.src=fallbackImage(w);};
   box.appendChild(img);box.title='按词义/主题自动匹配图片';
 }
 const imageWarmCache=new Set();let imageWarmDeck='';
